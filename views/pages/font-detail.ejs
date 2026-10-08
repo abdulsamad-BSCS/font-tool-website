@@ -1,0 +1,28 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/fonts">Font styles</a> / <span aria-current="page"><%= style.name %></span></nav>
+<section class="hero">
+  <h1><%= style.name %> text generator</h1>
+  <p class="lede"><%= style.description %></p>
+  <%- include('../partials/generator-input') %>
+  <ul class="rows big" data-rows>
+    <%- include('../partials/style-row', { s: style }) %>
+  </ul>
+</section>
+<section class="prose" aria-labelledby="about-style">
+  <h2 id="about-style">About this style</h2>
+  <p>Category: <a href="/?category=<%= style.category %>"><%= cat ? cat.name : style.category %></a>. <%= style.supportLabel %>.</p>
+  <% if (parent) { %><p>This style builds on <a href="/fonts/<%= parent.slug %>"><%= parent.name %></a>.</p><% } %>
+</section>
+<section class="prose" aria-labelledby="faq">
+  <h2 id="faq">Questions</h2>
+  <% faq.forEach(function (f) { %><h3><%= f.q %></h3><p><%= f.a %></p><% }) %>
+</section>
+<% if (related.length) { %>
+<section aria-labelledby="related">
+  <h2 id="related">Related styles</h2>
+  <ul class="rows" data-rows>
+    <% related.forEach(function (s) { %><%- include('../partials/style-row', { s: s }) %><% }) %>
+  </ul>
+</section>
+<% } %>
+<%- include('../partials/foot', { withGenerator: true }) %>

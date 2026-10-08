@@ -1,0 +1,21 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/community">Community</a> / <span aria-current="page"><%= post.name %></span></nav>
+<section class="hero">
+  <p class="eyebrow">shared style</p>
+  <h1><%= post.name %></h1>
+  <p class="lede">by <%= post.author %> · <%= style.name %> style<% if (post.tags && post.tags.length) { %> · <%= post.tags.map(function (t) { return '#' + t; }).join(' ') %><% } %></p>
+  <div class="panel">
+    <p class="out out-xl"><%= output %></p>
+  </div>
+  <div class="hero-actions">
+    <button type="button" class="btn grad" data-copy-share data-share-text="<%= post.text %>">Copy this text</button>
+    <a class="btn ghost" href="/?text=<%= encodeURIComponent(post.text) %>">Open in generator</a>
+    <a class="btn subtle" href="/fonts/<%= style.slug %>">About the <%= style.name %> style</a>
+    <button type="button" class="btn subtle" data-like-share>♥ <span data-likes="<%= post.likes %>"><%= post.likes %></span></button>
+  </div>
+</section>
+<section class="prose">
+  <h2>How it was made</h2>
+  <p>The words “<%= post.text %>” run through the <a href="/fonts/<%= style.slug %>"><%= style.name %></a> pipeline: each letter is swapped for its Unicode look-alike, so the result is plain text that survives copy and paste.</p>
+</section>
+<%- include('../partials/foot') %>

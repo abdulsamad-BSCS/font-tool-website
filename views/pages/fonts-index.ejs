@@ -1,0 +1,16 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Font styles</span></nav>
+<section class="hero">
+  <h1>Fancy font styles</h1>
+</section>
+<% groups.forEach(function (g) { %>
+<section aria-labelledby="cat-<%= g.key %>">
+  <h2 id="cat-<%= g.key %>"><%= g.name %></h2>
+  <p class="muted"><%= g.intro %></p>
+  <ul class="rows">
+    <% g.styles.forEach(function (s) { %><%- include('../partials/style-row', { s: s }) %><% }) %>
+  </ul>
+  <p class="more"><a href="/?category=<%= g.key %>">All <%= g.count %> <%= g.name.toLowerCase() %> variations</a></p>
+</section>
+<% }) %>
+<%- include('../partials/foot', { withGenerator: false }) %>

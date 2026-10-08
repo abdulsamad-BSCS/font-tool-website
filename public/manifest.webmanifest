@@ -1,0 +1,13 @@
+{
+  "name": "Stylzo — text styles, symbols & kaomoji",
+  "short_name": "Stylzo",
+  "description": "Turn plain text into hundreds of Unicode styles, plus symbol, emoji and kaomoji libraries. Free, private, offline-friendly.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f4fb",
+  "theme_color": "#4b2fe0",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,4189 @@
+{
+  "categories": [
+    {
+      "key": "arrows",
+      "name": "Arrows",
+      "intro": "Pointers, returns and movement marks for lists, bios and instructions.",
+      "items": [
+        {
+          "text": "→",
+          "name": "right arrow",
+          "tags": [
+            "arrow",
+            "right",
+            "point"
+          ]
+        },
+        {
+          "text": "←",
+          "name": "left arrow",
+          "tags": [
+            "arrow",
+            "left",
+            "point"
+          ]
+        },
+        {
+          "text": "↑",
+          "name": "up arrow",
+          "tags": [
+            "arrow",
+            "up",
+            "point"
+          ]
+        },
+        {
+          "text": "↓",
+          "name": "down arrow",
+          "tags": [
+            "arrow",
+            "down",
+            "point"
+          ]
+        },
+        {
+          "text": "↔",
+          "name": "left right arrow",
+          "tags": [
+            "arrow",
+            "horizontal"
+          ]
+        },
+        {
+          "text": "↕",
+          "name": "up down arrow",
+          "tags": [
+            "arrow",
+            "vertical"
+          ]
+        },
+        {
+          "text": "➜",
+          "name": "wide arrow",
+          "tags": [
+            "arrow",
+            "point",
+            "bold"
+          ]
+        },
+        {
+          "text": "➔",
+          "name": "heavy arrow",
+          "tags": [
+            "arrow",
+            "point",
+            "bold"
+          ]
+        },
+        {
+          "text": "➤",
+          "name": "black arrowhead",
+          "tags": [
+            "arrow",
+            "point",
+            "menu"
+          ]
+        },
+        {
+          "text": "⟶",
+          "name": "long right arrow",
+          "tags": [
+            "arrow",
+            "long",
+            "math"
+          ]
+        },
+        {
+          "text": "⟵",
+          "name": "long left arrow",
+          "tags": [
+            "arrow",
+            "long",
+            "math"
+          ]
+        },
+        {
+          "text": "⇒",
+          "name": "double right arrow",
+          "tags": [
+            "arrow",
+            "implies",
+            "math"
+          ]
+        },
+        {
+          "text": "⇐",
+          "name": "double left arrow",
+          "tags": [
+            "arrow",
+            "math"
+          ]
+        },
+        {
+          "text": "⇔",
+          "name": "double left right arrow",
+          "tags": [
+            "arrow",
+            "iff",
+            "math"
+          ]
+        },
+        {
+          "text": "↩",
+          "name": "leftwards hook",
+          "tags": [
+            "arrow",
+            "return",
+            "reply"
+          ]
+        },
+        {
+          "text": "↪",
+          "name": "rightwards hook",
+          "tags": [
+            "arrow",
+            "forward"
+          ]
+        },
+        {
+          "text": "↷",
+          "name": "rotate right",
+          "tags": [
+            "arrow",
+            "rotate",
+            "redo"
+          ]
+        },
+        {
+          "text": "↶",
+          "name": "rotate left",
+          "tags": [
+            "arrow",
+            "rotate",
+            "undo"
+          ]
+        },
+        {
+          "text": "⏩",
+          "name": "fast forward",
+          "tags": [
+            "arrow",
+            "media",
+            "skip"
+          ]
+        },
+        {
+          "text": "⏪",
+          "name": "fast rewind",
+          "tags": [
+            "arrow",
+            "media",
+            "back"
+          ]
+        },
+        {
+          "text": "⏫",
+          "name": "fast up",
+          "tags": [
+            "arrow",
+            "up",
+            "double"
+          ]
+        },
+        {
+          "text": "⏬",
+          "name": "fast down",
+          "tags": [
+            "arrow",
+            "down",
+            "double"
+          ]
+        },
+        {
+          "text": "🔀",
+          "name": "shuffle",
+          "tags": [
+            "arrow",
+            "random",
+            "music"
+          ]
+        },
+        {
+          "text": "🔁",
+          "name": "repeat",
+          "tags": [
+            "arrow",
+            "loop",
+            "repeat"
+          ]
+        },
+        {
+          "text": "▶",
+          "name": "play",
+          "tags": [
+            "arrow",
+            "play",
+            "media"
+          ]
+        },
+        {
+          "text": "◀",
+          "name": "reverse",
+          "tags": [
+            "arrow",
+            "play",
+            "media"
+          ]
+        },
+        {
+          "text": "▲",
+          "name": "up triangle",
+          "tags": [
+            "arrow",
+            "triangle",
+            "up"
+          ]
+        },
+        {
+          "text": "▼",
+          "name": "down triangle",
+          "tags": [
+            "arrow",
+            "triangle",
+            "down"
+          ]
+        },
+        {
+          "text": "»",
+          "name": "right guillemet",
+          "tags": [
+            "arrow",
+            "quote",
+            "list"
+          ]
+        },
+        {
+          "text": "«",
+          "name": "left guillemet",
+          "tags": [
+            "arrow",
+            "quote",
+            "list"
+          ]
+        },
+        {
+          "text": "›",
+          "name": "single right angle",
+          "tags": [
+            "arrow",
+            "next"
+          ]
+        },
+        {
+          "text": "‹",
+          "name": "single left angle",
+          "tags": [
+            "arrow",
+            "back"
+          ]
+        },
+        {
+          "text": "⫸",
+          "name": "double right triangle",
+          "tags": [
+            "arrow",
+            "math"
+          ]
+        },
+        {
+          "text": "⬈",
+          "name": "north east arrow",
+          "tags": [
+            "arrow",
+            "diagonal"
+          ]
+        },
+        {
+          "text": "⬊",
+          "name": "south east arrow",
+          "tags": [
+            "arrow",
+            "diagonal"
+          ]
+        },
+        {
+          "text": "⤓",
+          "name": "arrow to bar",
+          "tags": [
+            "arrow",
+            "download"
+          ]
+        },
+        {
+          "text": "⇥",
+          "name": "rightwards arrow to bar",
+          "tags": [
+            "arrow",
+            "tab"
+          ]
+        },
+        {
+          "text": "⇤",
+          "name": "leftwards arrow to bar",
+          "tags": [
+            "arrow",
+            "tab"
+          ]
+        },
+        {
+          "text": "↯",
+          "name": "downwards zigzag",
+          "tags": [
+            "arrow",
+            "zigzag",
+            "lightning"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "stars",
+      "name": "Stars & sparkles",
+      "intro": "Ratings, highlights and the small marks that make a line feel special.",
+      "items": [
+        {
+          "text": "★",
+          "name": "black star",
+          "tags": [
+            "star",
+            "rating",
+            "favorite"
+          ]
+        },
+        {
+          "text": "☆",
+          "name": "white star",
+          "tags": [
+            "star",
+            "rating",
+            "empty"
+          ]
+        },
+        {
+          "text": "✪",
+          "name": "star in circle",
+          "tags": [
+            "star",
+            "circle"
+          ]
+        },
+        {
+          "text": "✫",
+          "name": "open star",
+          "tags": [
+            "star",
+            "fancy"
+          ]
+        },
+        {
+          "text": "✬",
+          "name": "star with dot",
+          "tags": [
+            "star",
+            "fancy"
+          ]
+        },
+        {
+          "text": "✭",
+          "name": "outlined star",
+          "tags": [
+            "star",
+            "fancy"
+          ]
+        },
+        {
+          "text": "✮",
+          "name": "heavy star",
+          "tags": [
+            "star",
+            "bold"
+          ]
+        },
+        {
+          "text": "✯",
+          "name": "star burst",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✰",
+          "name": "shadowed star",
+          "tags": [
+            "star",
+            "fancy"
+          ]
+        },
+        {
+          "text": "⋆",
+          "name": "star operator",
+          "tags": [
+            "star",
+            "math"
+          ]
+        },
+        {
+          "text": "✶",
+          "name": "six pointed star",
+          "tags": [
+            "star",
+            "spur"
+          ]
+        },
+        {
+          "text": "✷",
+          "name": "eight pointed star",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✸",
+          "name": "eight pointed star heavy",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✹",
+          "name": "eight pointed pinwheel",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✺",
+          "name": "eight pinwheel",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✻",
+          "name": "teardrop spoked star",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✼",
+          "name": "open teardrop star",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✽",
+          "name": "heavy teardrop star",
+          "tags": [
+            "star",
+            "burst"
+          ]
+        },
+        {
+          "text": "✾",
+          "name": "six petalled flower",
+          "tags": [
+            "star",
+            "flower"
+          ]
+        },
+        {
+          "text": "❋",
+          "name": "heavy teardrop flower",
+          "tags": [
+            "star",
+            "flower"
+          ]
+        },
+        {
+          "text": "✦",
+          "name": "black four pointed star",
+          "tags": [
+            "star",
+            "sparkle"
+          ]
+        },
+        {
+          "text": "✧",
+          "name": "white four pointed star",
+          "tags": [
+            "star",
+            "sparkle"
+          ]
+        },
+        {
+          "text": "✩",
+          "name": "star outline teardrop",
+          "tags": [
+            "star",
+            "sparkle"
+          ]
+        },
+        {
+          "text": "⁂",
+          "name": "asterism",
+          "tags": [
+            "star",
+            "three",
+            "separator"
+          ]
+        },
+        {
+          "text": "✢",
+          "name": "four teardrop star",
+          "tags": [
+            "star",
+            "plus"
+          ]
+        },
+        {
+          "text": "✨",
+          "name": "sparkles",
+          "tags": [
+            "sparkle",
+            "shine",
+            "magic"
+          ]
+        },
+        {
+          "text": "⭐",
+          "name": "star",
+          "tags": [
+            "star",
+            "yellow",
+            "favorite"
+          ]
+        },
+        {
+          "text": "🌟",
+          "name": "glowing star",
+          "tags": [
+            "star",
+            "shine"
+          ]
+        },
+        {
+          "text": "💫",
+          "name": "dizzy",
+          "tags": [
+            "star",
+            "dizzy",
+            "sparkle"
+          ]
+        },
+        {
+          "text": "⚡",
+          "name": "high voltage",
+          "tags": [
+            "zap",
+            "power",
+            "energy"
+          ]
+        },
+        {
+          "text": "❈",
+          "name": "heavy flower",
+          "tags": [
+            "flower",
+            "snowflake"
+          ]
+        },
+        {
+          "text": "❊",
+          "name": "teardrop flower open",
+          "tags": [
+            "flower"
+          ]
+        },
+        {
+          "text": "✵",
+          "name": "spoked star",
+          "tags": [
+            "star",
+            "wheel"
+          ]
+        },
+        {
+          "text": "⁕",
+          "name": "flower punctuation",
+          "tags": [
+            "asterisk",
+            "flower"
+          ]
+        },
+        {
+          "text": "˸",
+          "name": "colon with rising dots",
+          "tags": [
+            "dots",
+            "star"
+          ]
+        },
+        {
+          "text": "⍣",
+          "name": "asterisk operator",
+          "tags": [
+            "asterisk",
+            "math"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hearts",
+      "name": "Hearts & love",
+      "intro": "Every shape of heart Unicode ships, for bios, names and messages.",
+      "items": [
+        {
+          "text": "♥",
+          "name": "black heart suit",
+          "tags": [
+            "heart",
+            "love",
+            "black"
+          ]
+        },
+        {
+          "text": "♡",
+          "name": "white heart suit",
+          "tags": [
+            "heart",
+            "love",
+            "outline"
+          ]
+        },
+        {
+          "text": "❤",
+          "name": "red heart",
+          "tags": [
+            "heart",
+            "love",
+            "red"
+          ]
+        },
+        {
+          "text": "❤️",
+          "name": "red heart emoji",
+          "tags": [
+            "heart",
+            "love",
+            "red"
+          ]
+        },
+        {
+          "text": "❥",
+          "name": "rotated heart",
+          "tags": [
+            "heart",
+            "love",
+            "fancy"
+          ]
+        },
+        {
+          "text": "❦",
+          "name": "floral heart",
+          "tags": [
+            "heart",
+            "love",
+            "fancy"
+          ]
+        },
+        {
+          "text": "❧",
+          "name": "rotated floral heart",
+          "tags": [
+            "heart",
+            "love",
+            "fancy"
+          ]
+        },
+        {
+          "text": "💔",
+          "name": "broken heart",
+          "tags": [
+            "heart",
+            "sad",
+            "break"
+          ]
+        },
+        {
+          "text": "💕",
+          "name": "two hearts",
+          "tags": [
+            "heart",
+            "love"
+          ]
+        },
+        {
+          "text": "💖",
+          "name": "sparkling heart",
+          "tags": [
+            "heart",
+            "sparkle"
+          ]
+        },
+        {
+          "text": "💗",
+          "name": "growing heart",
+          "tags": [
+            "heart",
+            "grow"
+          ]
+        },
+        {
+          "text": "💓",
+          "name": "beating heart",
+          "tags": [
+            "heart",
+            "beat"
+          ]
+        },
+        {
+          "text": "💝",
+          "name": "heart with ribbon",
+          "tags": [
+            "heart",
+            "gift"
+          ]
+        },
+        {
+          "text": "🖤",
+          "name": "black heart emoji",
+          "tags": [
+            "heart",
+            "black"
+          ]
+        },
+        {
+          "text": "🤍",
+          "name": "white heart emoji",
+          "tags": [
+            "heart",
+            "white"
+          ]
+        },
+        {
+          "text": "💜",
+          "name": "purple heart",
+          "tags": [
+            "heart",
+            "purple"
+          ]
+        },
+        {
+          "text": "💙",
+          "name": "blue heart",
+          "tags": [
+            "heart",
+            "blue"
+          ]
+        },
+        {
+          "text": "💚",
+          "name": "green heart",
+          "tags": [
+            "heart",
+            "green"
+          ]
+        },
+        {
+          "text": "💛",
+          "name": "yellow heart",
+          "tags": [
+            "heart",
+            "yellow"
+          ]
+        },
+        {
+          "text": "🧡",
+          "name": "orange heart",
+          "tags": [
+            "heart",
+            "orange"
+          ]
+        },
+        {
+          "text": "❣",
+          "name": "heart exclamation",
+          "tags": [
+            "heart",
+            "punctuation"
+          ]
+        },
+        {
+          "text": "❤‍🔥",
+          "name": "heart on fire",
+          "tags": [
+            "heart",
+            "fire"
+          ]
+        },
+        {
+          "text": "🫀",
+          "name": "anatomical heart",
+          "tags": [
+            "heart",
+            "organ"
+          ]
+        },
+        {
+          "text": "💟",
+          "name": "heart decoration",
+          "tags": [
+            "heart",
+            "decoration"
+          ]
+        },
+        {
+          "text": "🫶",
+          "name": "heart hands",
+          "tags": [
+            "heart",
+            "hands",
+            "love"
+          ]
+        },
+        {
+          "text": "❥︎",
+          "name": "text heart",
+          "tags": [
+            "heart",
+            "love",
+            "plain"
+          ]
+        },
+        {
+          "text": "♥️",
+          "name": "heart suit emoji",
+          "tags": [
+            "heart",
+            "card"
+          ]
+        },
+        {
+          "text": "🩷",
+          "name": "pink heart",
+          "tags": [
+            "heart",
+            "pink"
+          ]
+        },
+        {
+          "text": "🩵",
+          "name": "light blue heart",
+          "tags": [
+            "heart",
+            "blue"
+          ]
+        },
+        {
+          "text": "🩶",
+          "name": "grey heart",
+          "tags": [
+            "heart",
+            "grey"
+          ]
+        },
+        {
+          "text": "🤎",
+          "name": "brown heart",
+          "tags": [
+            "heart",
+            "brown"
+          ]
+        },
+        {
+          "text": "❤️‍🩹",
+          "name": "mending heart",
+          "tags": [
+            "heart",
+            "heal"
+          ]
+        },
+        {
+          "text": "💌",
+          "name": "love letter",
+          "tags": [
+            "heart",
+            "letter",
+            "mail"
+          ]
+        },
+        {
+          "text": "😍",
+          "name": "heart eyes",
+          "tags": [
+            "heart",
+            "love",
+            "face"
+          ]
+        },
+        {
+          "text": "🥰",
+          "name": "smiling hearts",
+          "tags": [
+            "heart",
+            "love",
+            "face"
+          ]
+        },
+        {
+          "text": "😘",
+          "name": "kiss",
+          "tags": [
+            "heart",
+            "kiss",
+            "face"
+          ]
+        },
+        {
+          "text": "🌹",
+          "name": "rose",
+          "tags": [
+            "flower",
+            "love",
+            "romance"
+          ]
+        },
+        {
+          "text": "💘",
+          "name": "heart with arrow",
+          "tags": [
+            "heart",
+            "cupid"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "music",
+      "name": "Music & media",
+      "intro": "Notes and playback marks for playlists, profiles and status lines.",
+      "items": [
+        {
+          "text": "♪",
+          "name": "eighth note",
+          "tags": [
+            "music",
+            "note",
+            "song"
+          ]
+        },
+        {
+          "text": "♫",
+          "name": "beamed eighth notes",
+          "tags": [
+            "music",
+            "note",
+            "song"
+          ]
+        },
+        {
+          "text": "♬",
+          "name": "beamed sixteenth notes",
+          "tags": [
+            "music",
+            "note",
+            "song"
+          ]
+        },
+        {
+          "text": "♩",
+          "name": "quarter note",
+          "tags": [
+            "music",
+            "note"
+          ]
+        },
+        {
+          "text": "♭",
+          "name": "flat",
+          "tags": [
+            "music",
+            "note",
+            "flat"
+          ]
+        },
+        {
+          "text": "♮",
+          "name": "natural",
+          "tags": [
+            "music",
+            "note",
+            "natural"
+          ]
+        },
+        {
+          "text": "♯",
+          "name": "sharp",
+          "tags": [
+            "music",
+            "note",
+            "sharp"
+          ]
+        },
+        {
+          "text": "𝄞",
+          "name": "treble clef",
+          "tags": [
+            "music",
+            "clef"
+          ]
+        },
+        {
+          "text": "𝄢",
+          "name": "bass clef",
+          "tags": [
+            "music",
+            "clef"
+          ]
+        },
+        {
+          "text": "𝄡",
+          "name": "alto clef",
+          "tags": [
+            "music",
+            "clef"
+          ]
+        },
+        {
+          "text": "𝄪",
+          "name": "double sharp",
+          "tags": [
+            "music",
+            "accidental"
+          ]
+        },
+        {
+          "text": "𝄫",
+          "name": "double flat",
+          "tags": [
+            "music",
+            "accidental"
+          ]
+        },
+        {
+          "text": "𝅘𝅥",
+          "name": "quarter note symbol",
+          "tags": [
+            "music",
+            "note"
+          ]
+        },
+        {
+          "text": "𝅗𝅥",
+          "name": "half note symbol",
+          "tags": [
+            "music",
+            "note"
+          ]
+        },
+        {
+          "text": "⦿",
+          "name": "fused note",
+          "tags": [
+            "music",
+            "note",
+            "dot"
+          ]
+        },
+        {
+          "text": "🎙",
+          "name": "studio microphone",
+          "tags": [
+            "music",
+            "mic",
+            "podcast"
+          ]
+        },
+        {
+          "text": "🎚",
+          "name": "control knobs",
+          "tags": [
+            "music",
+            "studio"
+          ]
+        },
+        {
+          "text": "🎛",
+          "name": "control sliders",
+          "tags": [
+            "music",
+            "studio"
+          ]
+        },
+        {
+          "text": "📻",
+          "name": "radio",
+          "tags": [
+            "music",
+            "media"
+          ]
+        },
+        {
+          "text": "🎧",
+          "name": "headphone",
+          "tags": [
+            "music",
+            "listen"
+          ]
+        },
+        {
+          "text": "📀",
+          "name": "optical disk",
+          "tags": [
+            "media",
+            "disc"
+          ]
+        },
+        {
+          "text": "💾",
+          "name": "floppy disk",
+          "tags": [
+            "media",
+            "save"
+          ]
+        },
+        {
+          "text": "💿",
+          "name": "optical disk",
+          "tags": [
+            "media",
+            "disc",
+            "album"
+          ]
+        },
+        {
+          "text": "🎬",
+          "name": "clapper board",
+          "tags": [
+            "film",
+            "movie"
+          ]
+        },
+        {
+          "text": "🎞",
+          "name": "film frames",
+          "tags": [
+            "film",
+            "movie"
+          ]
+        },
+        {
+          "text": "📽",
+          "name": "film projector",
+          "tags": [
+            "film",
+            "movie"
+          ]
+        },
+        {
+          "text": "🎦",
+          "name": "cinema",
+          "tags": [
+            "film",
+            "movie"
+          ]
+        },
+        {
+          "text": "🎯",
+          "name": "direct hit",
+          "tags": [
+            "target",
+            "goal",
+            "dart"
+          ]
+        },
+        {
+          "text": "🏆",
+          "name": "trophy",
+          "tags": [
+            "award",
+            "win",
+            "winner"
+          ]
+        },
+        {
+          "text": "🥇",
+          "name": "first place medal",
+          "tags": [
+            "medal",
+            "gold",
+            "win"
+          ]
+        },
+        {
+          "text": "🎤",
+          "name": "microphone",
+          "tags": [
+            "mic",
+            "sing",
+            "karaoke"
+          ]
+        },
+        {
+          "text": "🥁",
+          "name": "drum",
+          "tags": [
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "text": "🎷",
+          "name": "saxophone",
+          "tags": [
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "text": "🎸",
+          "name": "guitar",
+          "tags": [
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "text": "🎹",
+          "name": "musical keyboard",
+          "tags": [
+            "music",
+            "piano"
+          ]
+        },
+        {
+          "text": "🎺",
+          "name": "trumpet",
+          "tags": [
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "text": "🎻",
+          "name": "violin",
+          "tags": [
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "text": "🪕",
+          "name": "banjo",
+          "tags": [
+            "music",
+            "instrument"
+          ]
+        },
+        {
+          "text": "📣",
+          "name": "megaphone",
+          "tags": [
+            "announce",
+            "loud"
+          ]
+        },
+        {
+          "text": "📢",
+          "name": "loudspeaker",
+          "tags": [
+            "announce",
+            "loud"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "math",
+      "name": "Math & logic",
+      "intro": "Operators and symbols for equations, compare lines and technical notes.",
+      "items": [
+        {
+          "text": "±",
+          "name": "plus minus",
+          "tags": [
+            "math",
+            "plus",
+            "minus"
+          ]
+        },
+        {
+          "text": "×",
+          "name": "multiplication",
+          "tags": [
+            "math",
+            "times"
+          ]
+        },
+        {
+          "text": "÷",
+          "name": "division",
+          "tags": [
+            "math",
+            "divide"
+          ]
+        },
+        {
+          "text": "≠",
+          "name": "not equal",
+          "tags": [
+            "math",
+            "compare"
+          ]
+        },
+        {
+          "text": "≈",
+          "name": "almost equal",
+          "tags": [
+            "math",
+            "compare"
+          ]
+        },
+        {
+          "text": "≥",
+          "name": "greater or equal",
+          "tags": [
+            "math",
+            "compare"
+          ]
+        },
+        {
+          "text": "≤",
+          "name": "less or equal",
+          "tags": [
+            "math",
+            "compare"
+          ]
+        },
+        {
+          "text": "∞",
+          "name": "infinity",
+          "tags": [
+            "math",
+            "infinity"
+          ]
+        },
+        {
+          "text": "√",
+          "name": "square root",
+          "tags": [
+            "math",
+            "root"
+          ]
+        },
+        {
+          "text": "∑",
+          "name": "summation",
+          "tags": [
+            "math",
+            "sum"
+          ]
+        },
+        {
+          "text": "∏",
+          "name": "product",
+          "tags": [
+            "math",
+            "product"
+          ]
+        },
+        {
+          "text": "∫",
+          "name": "integral",
+          "tags": [
+            "math",
+            "calculus"
+          ]
+        },
+        {
+          "text": "∂",
+          "name": "partial derivative",
+          "tags": [
+            "math",
+            "calculus"
+          ]
+        },
+        {
+          "text": "∆",
+          "name": "increment",
+          "tags": [
+            "math",
+            "delta"
+          ]
+        },
+        {
+          "text": "∇",
+          "name": "nabla",
+          "tags": [
+            "math",
+            "delta"
+          ]
+        },
+        {
+          "text": "θ",
+          "name": "theta",
+          "tags": [
+            "math",
+            "greek"
+          ]
+        },
+        {
+          "text": "π",
+          "name": "pi",
+          "tags": [
+            "math",
+            "greek",
+            "constant"
+          ]
+        },
+        {
+          "text": "µ",
+          "name": "micro",
+          "tags": [
+            "math",
+            "unit"
+          ]
+        },
+        {
+          "text": "Ω",
+          "name": "ohm",
+          "tags": [
+            "math",
+            "unit",
+            "greek"
+          ]
+        },
+        {
+          "text": "°",
+          "name": "degree",
+          "tags": [
+            "math",
+            "degree",
+            "angle"
+          ]
+        },
+        {
+          "text": "‰",
+          "name": "per mille",
+          "tags": [
+            "math",
+            "percent"
+          ]
+        },
+        {
+          "text": "⋅",
+          "name": "dot operator",
+          "tags": [
+            "math",
+            "dot"
+          ]
+        },
+        {
+          "text": "∘",
+          "name": "ring operator",
+          "tags": [
+            "math",
+            "compose"
+          ]
+        },
+        {
+          "text": "⊕",
+          "name": "circled plus",
+          "tags": [
+            "math",
+            "xor"
+          ]
+        },
+        {
+          "text": "⊗",
+          "name": "circled times",
+          "tags": [
+            "math",
+            "tensor"
+          ]
+        },
+        {
+          "text": "∧",
+          "name": "logical and",
+          "tags": [
+            "math",
+            "logic"
+          ]
+        },
+        {
+          "text": "∨",
+          "name": "logical or",
+          "tags": [
+            "math",
+            "logic"
+          ]
+        },
+        {
+          "text": "¬",
+          "name": "logical not",
+          "tags": [
+            "math",
+            "logic"
+          ]
+        },
+        {
+          "text": "∴",
+          "name": "therefore",
+          "tags": [
+            "math",
+            "logic"
+          ]
+        },
+        {
+          "text": "∵",
+          "name": "because",
+          "tags": [
+            "math",
+            "logic"
+          ]
+        },
+        {
+          "text": "∀",
+          "name": "for all",
+          "tags": [
+            "math",
+            "logic"
+          ]
+        },
+        {
+          "text": "∃",
+          "name": "there exists",
+          "tags": [
+            "math",
+            "logic"
+          ]
+        },
+        {
+          "text": "∈",
+          "name": "element of",
+          "tags": [
+            "math",
+            "set"
+          ]
+        },
+        {
+          "text": "⊂",
+          "name": "subset",
+          "tags": [
+            "math",
+            "set"
+          ]
+        },
+        {
+          "text": "∪",
+          "name": "union",
+          "tags": [
+            "math",
+            "set"
+          ]
+        },
+        {
+          "text": "∩",
+          "name": "intersection",
+          "tags": [
+            "math",
+            "set"
+          ]
+        },
+        {
+          "text": "∅",
+          "name": "empty set",
+          "tags": [
+            "math",
+            "set"
+          ]
+        },
+        {
+          "text": "≡",
+          "name": "identical",
+          "tags": [
+            "math",
+            "equivalent"
+          ]
+        },
+        {
+          "text": "∝",
+          "name": "proportional",
+          "tags": [
+            "math",
+            "ratio"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "name": "Currency & finance",
+      "intro": "Money signs for price lists, shop names and business bios.",
+      "items": [
+        {
+          "text": "$",
+          "name": "dollar",
+          "tags": [
+            "money",
+            "currency",
+            "usd"
+          ]
+        },
+        {
+          "text": "€",
+          "name": "euro",
+          "tags": [
+            "money",
+            "currency",
+            "eur"
+          ]
+        },
+        {
+          "text": "£",
+          "name": "pound",
+          "tags": [
+            "money",
+            "currency",
+            "gbp"
+          ]
+        },
+        {
+          "text": "¥",
+          "name": "yen",
+          "tags": [
+            "money",
+            "currency",
+            "jpy"
+          ]
+        },
+        {
+          "text": "₹",
+          "name": "rupee",
+          "tags": [
+            "money",
+            "currency",
+            "inr"
+          ]
+        },
+        {
+          "text": "₽",
+          "name": "ruble",
+          "tags": [
+            "money",
+            "currency",
+            "rub"
+          ]
+        },
+        {
+          "text": "₩",
+          "name": "won",
+          "tags": [
+            "money",
+            "currency",
+            "krw"
+          ]
+        },
+        {
+          "text": "₪",
+          "name": "shekel",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₫",
+          "name": "dong",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₴",
+          "name": "hryvnia",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₦",
+          "name": "naira",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "฿",
+          "name": "baht",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₡",
+          "name": "colon",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₲",
+          "name": "guarani",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₵",
+          "name": "cedi",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₸",
+          "name": "tenge",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₺",
+          "name": "lira",
+          "tags": [
+            "money",
+            "currency"
+          ]
+        },
+        {
+          "text": "₿",
+          "name": "bitcoin",
+          "tags": [
+            "money",
+            "crypto"
+          ]
+        },
+        {
+          "text": "¢",
+          "name": "cent",
+          "tags": [
+            "money",
+            "coin"
+          ]
+        },
+        {
+          "text": "¤",
+          "name": "currency sign",
+          "tags": [
+            "money",
+            "generic"
+          ]
+        },
+        {
+          "text": "💰",
+          "name": "money bag",
+          "tags": [
+            "money",
+            "cash"
+          ]
+        },
+        {
+          "text": "💸",
+          "name": "money with wings",
+          "tags": [
+            "money",
+            "spend"
+          ]
+        },
+        {
+          "text": "💵",
+          "name": "dollar banknote",
+          "tags": [
+            "money",
+            "cash"
+          ]
+        },
+        {
+          "text": "💴",
+          "name": "yen banknote",
+          "tags": [
+            "money",
+            "cash"
+          ]
+        },
+        {
+          "text": "💶",
+          "name": "euro banknote",
+          "tags": [
+            "money",
+            "cash"
+          ]
+        },
+        {
+          "text": "💷",
+          "name": "pound banknote",
+          "tags": [
+            "money",
+            "cash"
+          ]
+        },
+        {
+          "text": "🪙",
+          "name": "coin",
+          "tags": [
+            "money",
+            "coin"
+          ]
+        },
+        {
+          "text": "💳",
+          "name": "credit card",
+          "tags": [
+            "money",
+            "pay"
+          ]
+        },
+        {
+          "text": "📈",
+          "name": "chart increasing",
+          "tags": [
+            "money",
+            "chart",
+            "growth"
+          ]
+        },
+        {
+          "text": "📉",
+          "name": "chart decreasing",
+          "tags": [
+            "money",
+            "chart",
+            "down"
+          ]
+        },
+        {
+          "text": "⚖",
+          "name": "balance scale",
+          "tags": [
+            "money",
+            "law",
+            "fair"
+          ]
+        },
+        {
+          "text": "🧾",
+          "name": "receipt",
+          "tags": [
+            "money",
+            "bill"
+          ]
+        },
+        {
+          "text": "💹",
+          "name": "chart yen",
+          "tags": [
+            "money",
+            "chart"
+          ]
+        },
+        {
+          "text": "🪪",
+          "name": "identification card",
+          "tags": [
+            "card",
+            "id"
+          ]
+        },
+        {
+          "text": "💱",
+          "name": "currency exchange",
+          "tags": [
+            "money",
+            "exchange"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "punctuation",
+      "name": "Punctuation & marks",
+      "intro": "Quotation, emphasis and separator marks that look better than ASCII.",
+      "items": [
+        {
+          "text": "•",
+          "name": "bullet",
+          "tags": [
+            "punctuation",
+            "bullet",
+            "list"
+          ]
+        },
+        {
+          "text": "◦",
+          "name": "white bullet",
+          "tags": [
+            "punctuation",
+            "bullet"
+          ]
+        },
+        {
+          "text": "‣",
+          "name": "triangular bullet",
+          "tags": [
+            "punctuation",
+            "bullet"
+          ]
+        },
+        {
+          "text": "⁃",
+          "name": "hyphen bullet",
+          "tags": [
+            "punctuation",
+            "bullet"
+          ]
+        },
+        {
+          "text": "·",
+          "name": "middle dot",
+          "tags": [
+            "punctuation",
+            "dot",
+            "separator"
+          ]
+        },
+        {
+          "text": "…",
+          "name": "ellipsis",
+          "tags": [
+            "punctuation",
+            "dots"
+          ]
+        },
+        {
+          "text": "‥",
+          "name": "two dot leader",
+          "tags": [
+            "punctuation",
+            "dots"
+          ]
+        },
+        {
+          "text": "¡",
+          "name": "inverted exclamation",
+          "tags": [
+            "punctuation",
+            "exclamation"
+          ]
+        },
+        {
+          "text": "¿",
+          "name": "inverted question",
+          "tags": [
+            "punctuation",
+            "question"
+          ]
+        },
+        {
+          "text": "‽",
+          "name": "interrobang",
+          "tags": [
+            "punctuation",
+            "question",
+            "exclamation"
+          ]
+        },
+        {
+          "text": "™",
+          "name": "trademark",
+          "tags": [
+            "punctuation",
+            "trademark",
+            "brand"
+          ]
+        },
+        {
+          "text": "®",
+          "name": "registered",
+          "tags": [
+            "punctuation",
+            "brand"
+          ]
+        },
+        {
+          "text": "©",
+          "name": "copyright",
+          "tags": [
+            "punctuation",
+            "brand"
+          ]
+        },
+        {
+          "text": "§",
+          "name": "section",
+          "tags": [
+            "punctuation",
+            "section"
+          ]
+        },
+        {
+          "text": "¶",
+          "name": "pilcrow",
+          "tags": [
+            "punctuation",
+            "paragraph"
+          ]
+        },
+        {
+          "text": "†",
+          "name": "dagger",
+          "tags": [
+            "punctuation",
+            "footnote"
+          ]
+        },
+        {
+          "text": "‡",
+          "name": "double dagger",
+          "tags": [
+            "punctuation",
+            "footnote"
+          ]
+        },
+        {
+          "text": "′",
+          "name": "prime",
+          "tags": [
+            "punctuation",
+            "prime"
+          ]
+        },
+        {
+          "text": "″",
+          "name": "double prime",
+          "tags": [
+            "punctuation",
+            "prime"
+          ]
+        },
+        {
+          "text": "⸮",
+          "name": "reversed question",
+          "tags": [
+            "punctuation",
+            "question"
+          ]
+        },
+        {
+          "text": "‸",
+          "name": "caret",
+          "tags": [
+            "punctuation",
+            "caret"
+          ]
+        },
+        {
+          "text": "⁑",
+          "name": "two asterisks",
+          "tags": [
+            "punctuation",
+            "asterisk"
+          ]
+        },
+        {
+          "text": "⁙",
+          "name": "five dot mark",
+          "tags": [
+            "punctuation",
+            "dots"
+          ]
+        },
+        {
+          "text": "⁘",
+          "name": "four dot mark",
+          "tags": [
+            "punctuation",
+            "dots"
+          ]
+        },
+        {
+          "text": "⁖",
+          "name": "three dot mark",
+          "tags": [
+            "punctuation",
+            "dots"
+          ]
+        },
+        {
+          "text": "⁎",
+          "name": "asterisk operator low",
+          "tags": [
+            "punctuation",
+            "asterisk"
+          ]
+        },
+        {
+          "text": "⁏",
+          "name": "reversed semicolon",
+          "tags": [
+            "punctuation",
+            "semicolon"
+          ]
+        },
+        {
+          "text": "︔",
+          "name": "vertical colon",
+          "tags": [
+            "punctuation",
+            "colon"
+          ]
+        },
+        {
+          "text": "︕",
+          "name": "fullwidth exclamation",
+          "tags": [
+            "punctuation",
+            "exclamation"
+          ]
+        },
+        {
+          "text": "︖",
+          "name": "fullwidth question",
+          "tags": [
+            "punctuation",
+            "question"
+          ]
+        },
+        {
+          "text": "❘",
+          "name": "light vertical",
+          "tags": [
+            "punctuation",
+            "bar"
+          ]
+        },
+        {
+          "text": "⌇",
+          "name": "wavy vertical",
+          "tags": [
+            "punctuation",
+            "bar",
+            "wave"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "brackets",
+      "name": "Brackets & frames",
+      "intro": "Openers and closers to wrap a word without using a full frame style.",
+      "items": [
+        {
+          "text": "〔",
+          "name": "tortoise shell bracket",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "〕",
+          "name": "tortoise shell bracket close",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "〖",
+          "name": "white lance bracket",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "〗",
+          "name": "white lance bracket close",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "〘",
+          "name": "white lens bracket",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "〙",
+          "name": "white lens bracket close",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "〚",
+          "name": "white lenticular bracket",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "〛",
+          "name": "white lenticular bracket close",
+          "tags": [
+            "bracket",
+            "wrap"
+          ]
+        },
+        {
+          "text": "❨",
+          "name": "medium parenthesis",
+          "tags": [
+            "bracket",
+            "paren"
+          ]
+        },
+        {
+          "text": "❩",
+          "name": "medium parenthesis close",
+          "tags": [
+            "bracket",
+            "paren"
+          ]
+        },
+        {
+          "text": "❪",
+          "name": "flat parenthesis",
+          "tags": [
+            "bracket",
+            "paren"
+          ]
+        },
+        {
+          "text": "❫",
+          "name": "flat parenthesis close",
+          "tags": [
+            "bracket",
+            "paren"
+          ]
+        },
+        {
+          "text": "❴",
+          "name": "heavy brace",
+          "tags": [
+            "bracket",
+            "brace"
+          ]
+        },
+        {
+          "text": "❵",
+          "name": "heavy brace close",
+          "tags": [
+            "bracket",
+            "brace"
+          ]
+        },
+        {
+          "text": "⟦",
+          "name": "mathematical bracket",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⟧",
+          "name": "mathematical bracket close",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⟨",
+          "name": "angle bracket",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⟩",
+          "name": "angle bracket close",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⟪",
+          "name": "double angle bracket",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⟫",
+          "name": "double angle bracket close",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⦃",
+          "name": "white curly bracket",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⦄",
+          "name": "white curly bracket close",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "【",
+          "name": "black lens bracket",
+          "tags": [
+            "bracket",
+            "cjk"
+          ]
+        },
+        {
+          "text": "】",
+          "name": "black lens bracket close",
+          "tags": [
+            "bracket",
+            "cjk"
+          ]
+        },
+        {
+          "text": "『",
+          "name": "white tortoise bracket",
+          "tags": [
+            "bracket",
+            "cjk"
+          ]
+        },
+        {
+          "text": "』",
+          "name": "white tortoise bracket close",
+          "tags": [
+            "bracket",
+            "cjk"
+          ]
+        },
+        {
+          "text": "❲",
+          "name": "light tortoise bracket",
+          "tags": [
+            "bracket"
+          ]
+        },
+        {
+          "text": "❳",
+          "name": "light tortoise bracket close",
+          "tags": [
+            "bracket"
+          ]
+        },
+        {
+          "text": "⟮",
+          "name": "flat target bracket",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "⟯",
+          "name": "flat target bracket close",
+          "tags": [
+            "bracket",
+            "math"
+          ]
+        },
+        {
+          "text": "❮",
+          "name": "heavy angle",
+          "tags": [
+            "bracket",
+            "angle"
+          ]
+        },
+        {
+          "text": "❯",
+          "name": "heavy angle close",
+          "tags": [
+            "bracket",
+            "angle"
+          ]
+        },
+        {
+          "text": "［",
+          "name": "fullwidth bracket",
+          "tags": [
+            "bracket",
+            "fullwidth"
+          ]
+        },
+        {
+          "text": "］",
+          "name": "fullwidth bracket close",
+          "tags": [
+            "bracket",
+            "fullwidth"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "checks",
+      "name": "Checks, crosses & markers",
+      "intro": "Tick boxes, X marks and status symbols for lists and profiles.",
+      "items": [
+        {
+          "text": "✔",
+          "name": "heavy check",
+          "tags": [
+            "check",
+            "yes",
+            "done"
+          ]
+        },
+        {
+          "text": "✓",
+          "name": "check",
+          "tags": [
+            "check",
+            "yes",
+            "done"
+          ]
+        },
+        {
+          "text": "☑",
+          "name": "ballot box checked",
+          "tags": [
+            "check",
+            "box",
+            "done"
+          ]
+        },
+        {
+          "text": "☐",
+          "name": "ballot box empty",
+          "tags": [
+            "check",
+            "box",
+            "todo"
+          ]
+        },
+        {
+          "text": "✗",
+          "name": "ballot x",
+          "tags": [
+            "cross",
+            "no",
+            "fail"
+          ]
+        },
+        {
+          "text": "✘",
+          "name": "heavy ballot x",
+          "tags": [
+            "cross",
+            "no",
+            "fail"
+          ]
+        },
+        {
+          "text": "⨯",
+          "name": "vector cross",
+          "tags": [
+            "cross",
+            "math"
+          ]
+        },
+        {
+          "text": "❌",
+          "name": "cross mark",
+          "tags": [
+            "cross",
+            "no"
+          ]
+        },
+        {
+          "text": "❎",
+          "name": "cross mark button",
+          "tags": [
+            "cross",
+            "no"
+          ]
+        },
+        {
+          "text": "✅",
+          "name": "check mark button",
+          "tags": [
+            "check",
+            "yes"
+          ]
+        },
+        {
+          "text": "☑️",
+          "name": "check box emoji",
+          "tags": [
+            "check",
+            "box"
+          ]
+        },
+        {
+          "text": "💠",
+          "name": "diamond with dot",
+          "tags": [
+            "marker",
+            "diamond"
+          ]
+        },
+        {
+          "text": "🔶",
+          "name": "large orange diamond",
+          "tags": [
+            "marker",
+            "diamond"
+          ]
+        },
+        {
+          "text": "🔹",
+          "name": "large blue diamond",
+          "tags": [
+            "marker",
+            "diamond"
+          ]
+        },
+        {
+          "text": "🔸",
+          "name": "small orange diamond",
+          "tags": [
+            "marker",
+            "diamond"
+          ]
+        },
+        {
+          "text": "▪",
+          "name": "black small square",
+          "tags": [
+            "marker",
+            "square"
+          ]
+        },
+        {
+          "text": "▫",
+          "name": "white small square",
+          "tags": [
+            "marker",
+            "square"
+          ]
+        },
+        {
+          "text": "■",
+          "name": "black square",
+          "tags": [
+            "marker",
+            "square"
+          ]
+        },
+        {
+          "text": "□",
+          "name": "white square",
+          "tags": [
+            "marker",
+            "square"
+          ]
+        },
+        {
+          "text": "△",
+          "name": "white up triangle",
+          "tags": [
+            "marker",
+            "up"
+          ]
+        },
+        {
+          "text": "▽",
+          "name": "white down triangle",
+          "tags": [
+            "marker",
+            "down"
+          ]
+        },
+        {
+          "text": "●",
+          "name": "black circle",
+          "tags": [
+            "marker",
+            "circle"
+          ]
+        },
+        {
+          "text": "○",
+          "name": "white circle",
+          "tags": [
+            "marker",
+            "circle"
+          ]
+        },
+        {
+          "text": "◆",
+          "name": "black diamond",
+          "tags": [
+            "marker",
+            "diamond"
+          ]
+        },
+        {
+          "text": "◇",
+          "name": "white diamond",
+          "tags": [
+            "marker",
+            "diamond"
+          ]
+        },
+        {
+          "text": "◉",
+          "name": "fisheye",
+          "tags": [
+            "marker",
+            "circle"
+          ]
+        },
+        {
+          "text": "◎",
+          "name": "bullseye",
+          "tags": [
+            "marker",
+            "circle"
+          ]
+        },
+        {
+          "text": "⚑",
+          "name": "flag",
+          "tags": [
+            "marker",
+            "flag"
+          ]
+        },
+        {
+          "text": "⚐",
+          "name": "white flag",
+          "tags": [
+            "marker",
+            "flag"
+          ]
+        },
+        {
+          "text": "⚠",
+          "name": "warning",
+          "tags": [
+            "alert",
+            "warning"
+          ]
+        },
+        {
+          "text": "☠",
+          "name": "skull and crossbones",
+          "tags": [
+            "danger",
+            "poison"
+          ]
+        },
+        {
+          "text": "♻",
+          "name": "recycle",
+          "tags": [
+            "eco",
+            "recycle"
+          ]
+        },
+        {
+          "text": "⚛",
+          "name": "atom",
+          "tags": [
+            "science",
+            "atom"
+          ]
+        },
+        {
+          "text": "⚕",
+          "name": "medical",
+          "tags": [
+            "health",
+            "medical"
+          ]
+        },
+        {
+          "text": "☎",
+          "name": "telephone",
+          "tags": [
+            "phone",
+            "call"
+          ]
+        },
+        {
+          "text": "✉",
+          "name": "envelope",
+          "tags": [
+            "mail",
+            "letter"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather",
+      "name": "Weather & sky",
+      "intro": "Sky, seasons and the elements for status lines and mood posts.",
+      "items": [
+        {
+          "text": "☀",
+          "name": "black sun",
+          "tags": [
+            "sun",
+            "weather",
+            "day"
+          ]
+        },
+        {
+          "text": "☼",
+          "name": "sun with rays",
+          "tags": [
+            "sun",
+            "weather"
+          ]
+        },
+        {
+          "text": "☀️",
+          "name": "sun emoji",
+          "tags": [
+            "sun",
+            "weather"
+          ]
+        },
+        {
+          "text": "☁",
+          "name": "cloud",
+          "tags": [
+            "cloud",
+            "weather"
+          ]
+        },
+        {
+          "text": "☁️",
+          "name": "cloud emoji",
+          "tags": [
+            "cloud",
+            "weather"
+          ]
+        },
+        {
+          "text": "⛅",
+          "name": "sun behind cloud",
+          "tags": [
+            "cloud",
+            "weather"
+          ]
+        },
+        {
+          "text": "☁︎",
+          "name": "text cloud",
+          "tags": [
+            "cloud",
+            "weather",
+            "plain"
+          ]
+        },
+        {
+          "text": "☂",
+          "name": "umbrella",
+          "tags": [
+            "rain",
+            "weather"
+          ]
+        },
+        {
+          "text": "☔",
+          "name": "umbrella with rain",
+          "tags": [
+            "rain",
+            "weather"
+          ]
+        },
+        {
+          "text": "❄",
+          "name": "snowflake",
+          "tags": [
+            "snow",
+            "weather",
+            "winter"
+          ]
+        },
+        {
+          "text": "❅",
+          "name": "snowflake cluster",
+          "tags": [
+            "snow",
+            "weather"
+          ]
+        },
+        {
+          "text": "❆",
+          "name": "heavy snowflake",
+          "tags": [
+            "snow",
+            "weather"
+          ]
+        },
+        {
+          "text": "❄️",
+          "name": "snowflake emoji",
+          "tags": [
+            "snow",
+            "winter"
+          ]
+        },
+        {
+          "text": "☃",
+          "name": "snowman",
+          "tags": [
+            "winter",
+            "snow"
+          ]
+        },
+        {
+          "text": "⛄",
+          "name": "snowman emoji",
+          "tags": [
+            "winter",
+            "snow"
+          ]
+        },
+        {
+          "text": "☃︎",
+          "name": "text snowman",
+          "tags": [
+            "winter",
+            "plain"
+          ]
+        },
+        {
+          "text": "🌊",
+          "name": "water wave",
+          "tags": [
+            "water",
+            "wave",
+            "sea"
+          ]
+        },
+        {
+          "text": "💧",
+          "name": "droplet",
+          "tags": [
+            "water",
+            "rain"
+          ]
+        },
+        {
+          "text": "🔥",
+          "name": "fire",
+          "tags": [
+            "fire",
+            "hot",
+            "lit"
+          ]
+        },
+        {
+          "text": "🌙",
+          "name": "crescent moon",
+          "tags": [
+            "moon",
+            "night"
+          ]
+        },
+        {
+          "text": "☾",
+          "name": "first quarter moon",
+          "tags": [
+            "moon",
+            "night"
+          ]
+        },
+        {
+          "text": "☽",
+          "name": "last quarter moon",
+          "tags": [
+            "moon",
+            "night"
+          ]
+        },
+        {
+          "text": "🌠",
+          "name": "shooting star",
+          "tags": [
+            "star",
+            "night"
+          ]
+        },
+        {
+          "text": "🌈",
+          "name": "rainbow",
+          "tags": [
+            "weather",
+            "rainbow"
+          ]
+        },
+        {
+          "text": "🌪",
+          "name": "tornado",
+          "tags": [
+            "weather",
+            "storm"
+          ]
+        },
+        {
+          "text": "🌫",
+          "name": "fog",
+          "tags": [
+            "weather",
+            "fog"
+          ]
+        },
+        {
+          "text": "🌡",
+          "name": "thermometer",
+          "tags": [
+            "weather",
+            "temperature"
+          ]
+        },
+        {
+          "text": "🍂",
+          "name": "fallen leaves",
+          "tags": [
+            "autumn",
+            "nature"
+          ]
+        },
+        {
+          "text": "🍁",
+          "name": "maple leaf",
+          "tags": [
+            "autumn",
+            "nature"
+          ]
+        },
+        {
+          "text": "🌱",
+          "name": "seedling",
+          "tags": [
+            "spring",
+            "nature"
+          ]
+        },
+        {
+          "text": "🌻",
+          "name": "sunflower",
+          "tags": [
+            "summer",
+            "flower"
+          ]
+        },
+        {
+          "text": "🌤",
+          "name": "sun behind small cloud",
+          "tags": [
+            "weather",
+            "cloud"
+          ]
+        },
+        {
+          "text": "🌥",
+          "name": "sun behind large cloud",
+          "tags": [
+            "weather",
+            "cloud"
+          ]
+        },
+        {
+          "text": "🌦",
+          "name": "sun behind rain",
+          "tags": [
+            "weather",
+            "rain"
+          ]
+        },
+        {
+          "text": "🧊",
+          "name": "ice",
+          "tags": [
+            "cold",
+            "ice"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "shapes",
+      "name": "Shapes & geometry",
+      "intro": "Pure geometry for separators, badges and decorative borders.",
+      "items": [
+        {
+          "text": "◈",
+          "name": "diamond with dot",
+          "tags": [
+            "shape",
+            "diamond"
+          ]
+        },
+        {
+          "text": "◐",
+          "name": "circle left half",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◑",
+          "name": "circle right half",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◒",
+          "name": "circle lower half",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◓",
+          "name": "circle upper half",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◔",
+          "name": "circle quadrant",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◕",
+          "name": "circle all but quadrant",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◖",
+          "name": "left half circle",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◗",
+          "name": "right half circle",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◘",
+          "name": "circle with bullet",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "◙",
+          "name": "inverse circle",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "▰",
+          "name": "filled rectangle",
+          "tags": [
+            "shape",
+            "rect"
+          ]
+        },
+        {
+          "text": "▱",
+          "name": "outlined rectangle",
+          "tags": [
+            "shape",
+            "rect"
+          ]
+        },
+        {
+          "text": "▴",
+          "name": "small filled triangle",
+          "tags": [
+            "shape",
+            "triangle"
+          ]
+        },
+        {
+          "text": "▵",
+          "name": "small open triangle",
+          "tags": [
+            "shape",
+            "triangle"
+          ]
+        },
+        {
+          "text": "⬡",
+          "name": "filled hexagon",
+          "tags": [
+            "shape",
+            "hex"
+          ]
+        },
+        {
+          "text": "⬢",
+          "name": "open hexagon",
+          "tags": [
+            "shape",
+            "hex"
+          ]
+        },
+        {
+          "text": "⏣",
+          "name": "benzene ring",
+          "tags": [
+            "shape",
+            "hex"
+          ]
+        },
+        {
+          "text": "⎔",
+          "name": "pentagon",
+          "tags": [
+            "shape",
+            "pentagon"
+          ]
+        },
+        {
+          "text": "◊",
+          "name": "lozenge",
+          "tags": [
+            "shape",
+            "diamond"
+          ]
+        },
+        {
+          "text": "⚭",
+          "name": "married symbol",
+          "tags": [
+            "shape",
+            "ring"
+          ]
+        },
+        {
+          "text": "⚯",
+          "name": "unmarried symbol",
+          "tags": [
+            "shape",
+            "ring"
+          ]
+        },
+        {
+          "text": "◍",
+          "name": "circle hatched",
+          "tags": [
+            "shape",
+            "circle"
+          ]
+        },
+        {
+          "text": "⬠",
+          "name": "pentagon shape",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "⬣",
+          "name": "hexagram",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "△",
+          "name": "white triangle up",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "◯",
+          "name": "large circle",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "▪",
+          "name": "small black square",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "▫",
+          "name": "small white square",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "⬔",
+          "name": "white convex pentagon",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "⬕",
+          "name": "white concave pentagon",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "⟁",
+          "name": "triangle outline",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "⟂",
+          "name": "perpendicular",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "⊞",
+          "name": "squared plus",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "⊟",
+          "name": "squared minus",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "◌",
+          "name": "dotted circle",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "●",
+          "name": "round filled dot",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "■",
+          "name": "square filled",
+          "tags": [
+            "shape"
+          ]
+        },
+        {
+          "text": "▲",
+          "name": "triangle filled",
+          "tags": [
+            "shape"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "boxes",
+      "name": "Boxes & borders",
+      "intro": "Box drawing characters to build frames, tables and dividers by hand.",
+      "items": [
+        {
+          "text": "─",
+          "name": "box light horizontal",
+          "tags": [
+            "box",
+            "line",
+            "border"
+          ]
+        },
+        {
+          "text": "━",
+          "name": "box heavy horizontal",
+          "tags": [
+            "box",
+            "line",
+            "border"
+          ]
+        },
+        {
+          "text": "│",
+          "name": "box light vertical",
+          "tags": [
+            "box",
+            "line",
+            "border"
+          ]
+        },
+        {
+          "text": "┃",
+          "name": "box heavy vertical",
+          "tags": [
+            "box",
+            "line",
+            "border"
+          ]
+        },
+        {
+          "text": "┌",
+          "name": "box down right",
+          "tags": [
+            "box",
+            "corner"
+          ]
+        },
+        {
+          "text": "┐",
+          "name": "box down left",
+          "tags": [
+            "box",
+            "corner"
+          ]
+        },
+        {
+          "text": "└",
+          "name": "box up right",
+          "tags": [
+            "box",
+            "corner"
+          ]
+        },
+        {
+          "text": "┘",
+          "name": "box up left",
+          "tags": [
+            "box",
+            "corner"
+          ]
+        },
+        {
+          "text": "├",
+          "name": "box vertical right",
+          "tags": [
+            "box",
+            "tee"
+          ]
+        },
+        {
+          "text": "┤",
+          "name": "box vertical left",
+          "tags": [
+            "box",
+            "tee"
+          ]
+        },
+        {
+          "text": "┬",
+          "name": "box down horizontal",
+          "tags": [
+            "box",
+            "tee"
+          ]
+        },
+        {
+          "text": "┴",
+          "name": "box up horizontal",
+          "tags": [
+            "box",
+            "tee"
+          ]
+        },
+        {
+          "text": "┼",
+          "name": "box cross",
+          "tags": [
+            "box",
+            "cross"
+          ]
+        },
+        {
+          "text": "═",
+          "name": "double horizontal",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "║",
+          "name": "double vertical",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╔",
+          "name": "double down right",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╗",
+          "name": "double down left",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╚",
+          "name": "double up right",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╝",
+          "name": "double up left",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╦",
+          "name": "double down horizontal",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╩",
+          "name": "double up horizontal",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╠",
+          "name": "double vertical right",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╣",
+          "name": "double vertical left",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╬",
+          "name": "double cross",
+          "tags": [
+            "box",
+            "double"
+          ]
+        },
+        {
+          "text": "╭",
+          "name": "rounded down right",
+          "tags": [
+            "box",
+            "round"
+          ]
+        },
+        {
+          "text": "╮",
+          "name": "rounded down left",
+          "tags": [
+            "box",
+            "round"
+          ]
+        },
+        {
+          "text": "╰",
+          "name": "rounded up right",
+          "tags": [
+            "box",
+            "round"
+          ]
+        },
+        {
+          "text": "╯",
+          "name": "rounded up left",
+          "tags": [
+            "box",
+            "round"
+          ]
+        },
+        {
+          "text": "▀",
+          "name": "upper half block",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "▄",
+          "name": "lower half block",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "█",
+          "name": "full block",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "▁",
+          "name": "lower one eighth",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "▂",
+          "name": "lower one quarter",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "▃",
+          "name": "lower three eighths",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "▅",
+          "name": "lower five eighths",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "▆",
+          "name": "lower three quarters",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "▇",
+          "name": "lower seven eighths",
+          "tags": [
+            "box",
+            "block"
+          ]
+        },
+        {
+          "text": "░",
+          "name": "light shade",
+          "tags": [
+            "box",
+            "shade"
+          ]
+        },
+        {
+          "text": "▒",
+          "name": "medium shade",
+          "tags": [
+            "box",
+            "shade"
+          ]
+        },
+        {
+          "text": "▓",
+          "name": "dark shade",
+          "tags": [
+            "box",
+            "shade"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dividers",
+      "name": "Dividers & separators",
+      "intro": "Ready-made separators for lists, bios and long captions.",
+      "items": [
+        {
+          "text": "┄",
+          "name": "light dashed",
+          "tags": [
+            "divider",
+            "dash"
+          ]
+        },
+        {
+          "text": "┅",
+          "name": "heavy dashed",
+          "tags": [
+            "divider",
+            "dash"
+          ]
+        },
+        {
+          "text": "┈",
+          "name": "light dotted",
+          "tags": [
+            "divider",
+            "dot"
+          ]
+        },
+        {
+          "text": "┉",
+          "name": "heavy dotted",
+          "tags": [
+            "divider",
+            "dot"
+          ]
+        },
+        {
+          "text": "╌",
+          "name": "light double dash",
+          "tags": [
+            "divider",
+            "dash"
+          ]
+        },
+        {
+          "text": "╍",
+          "name": "heavy double dash",
+          "tags": [
+            "divider",
+            "dash"
+          ]
+        },
+        {
+          "text": "︱",
+          "name": "presentation form vertical",
+          "tags": [
+            "divider",
+            "bar"
+          ]
+        },
+        {
+          "text": "︙",
+          "name": "dotted vertical",
+          "tags": [
+            "divider",
+            "dots"
+          ]
+        },
+        {
+          "text": "⋯",
+          "name": "midline horizontal ellipsis",
+          "tags": [
+            "divider",
+            "dots"
+          ]
+        },
+        {
+          "text": "⋮",
+          "name": "vertical ellipsis",
+          "tags": [
+            "divider",
+            "dots"
+          ]
+        },
+        {
+          "text": "〜",
+          "name": "wave dash",
+          "tags": [
+            "divider",
+            "wave"
+          ]
+        },
+        {
+          "text": "～",
+          "name": "fullwidth tilde",
+          "tags": [
+            "divider",
+            "wave"
+          ]
+        },
+        {
+          "text": "〰",
+          "name": "wavy dash",
+          "tags": [
+            "divider",
+            "wave"
+          ]
+        },
+        {
+          "text": "※",
+          "name": "reference mark",
+          "tags": [
+            "divider",
+            "mark"
+          ]
+        },
+        {
+          "text": "──",
+          "name": "long divider",
+          "tags": [
+            "divider",
+            "line"
+          ]
+        },
+        {
+          "text": "══",
+          "name": "long double divider",
+          "tags": [
+            "divider",
+            "line"
+          ]
+        },
+        {
+          "text": "━━",
+          "name": "long heavy divider",
+          "tags": [
+            "divider",
+            "line"
+          ]
+        },
+        {
+          "text": "─",
+          "name": "single rule",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "═",
+          "name": "double rule",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "｜",
+          "name": "fullwidth vertical",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "丨",
+          "name": "vertical extension",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "․",
+          "name": "single dot leader",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "‥",
+          "name": "two dot leader line",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "…",
+          "name": "three dot leader",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "⌇",
+          "name": "wavy rule",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "︴",
+          "name": "wavy vertical",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "⁃",
+          "name": "dash bullet rule",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "⁑",
+          "name": "star divider",
+          "tags": [
+            "divider"
+          ]
+        },
+        {
+          "text": "⁕",
+          "name": "flower rule",
+          "tags": [
+            "divider"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "typographic",
+      "name": "Typographic marks",
+      "intro": "Dashes, quotes and ligatures that typeset better than keyboard defaults.",
+      "items": [
+        {
+          "text": "–",
+          "name": "en dash",
+          "tags": [
+            "dash",
+            "punctuation"
+          ]
+        },
+        {
+          "text": "—",
+          "name": "em dash",
+          "tags": [
+            "dash",
+            "punctuation"
+          ]
+        },
+        {
+          "text": "―",
+          "name": "horizontal bar",
+          "tags": [
+            "dash",
+            "punctuation"
+          ]
+        },
+        {
+          "text": "‒",
+          "name": "figure dash",
+          "tags": [
+            "dash",
+            "punctuation"
+          ]
+        },
+        {
+          "text": "−",
+          "name": "minus sign",
+          "tags": [
+            "dash",
+            "math"
+          ]
+        },
+        {
+          "text": "‐",
+          "name": "hyphen",
+          "tags": [
+            "dash",
+            "hyphen"
+          ]
+        },
+        {
+          "text": "‑",
+          "name": "non breaking hyphen",
+          "tags": [
+            "dash",
+            "hyphen"
+          ]
+        },
+        {
+          "text": "‘",
+          "name": "left single quote",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "’",
+          "name": "right single quote",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "“",
+          "name": "left double quote",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "”",
+          "name": "right double quote",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "‚",
+          "name": "low single quote",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "„",
+          "name": "low double quote",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "‴",
+          "name": "triple prime",
+          "tags": [
+            "mark",
+            "prime"
+          ]
+        },
+        {
+          "text": "℘",
+          "name": "script p",
+          "tags": [
+            "mark",
+            "weierstrass"
+          ]
+        },
+        {
+          "text": "℮",
+          "name": "estimated sign",
+          "tags": [
+            "mark",
+            "estimated"
+          ]
+        },
+        {
+          "text": "⌀",
+          "name": "diameter",
+          "tags": [
+            "mark",
+            "engineering"
+          ]
+        },
+        {
+          "text": "↗",
+          "name": "north east arrow mark",
+          "tags": [
+            "mark",
+            "arrow"
+          ]
+        },
+        {
+          "text": "⏎",
+          "name": "return symbol",
+          "tags": [
+            "mark",
+            "return"
+          ]
+        },
+        {
+          "text": "␣",
+          "name": "space symbol",
+          "tags": [
+            "mark",
+            "space"
+          ]
+        },
+        {
+          "text": "⌁",
+          "name": "electric arrow",
+          "tags": [
+            "mark",
+            "arrow"
+          ]
+        },
+        {
+          "text": "ʼ",
+          "name": "apostrophe",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "̓",
+          "name": "combining comma above",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "«",
+          "name": "angle quote left",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "»",
+          "name": "angle quote right",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "‹",
+          "name": "single angle left",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "›",
+          "name": "single angle right",
+          "tags": [
+            "quote"
+          ]
+        },
+        {
+          "text": "′",
+          "name": "foot prime",
+          "tags": [
+            "prime"
+          ]
+        },
+        {
+          "text": "″",
+          "name": "inch prime",
+          "tags": [
+            "prime"
+          ]
+        },
+        {
+          "text": "※",
+          "name": "reference asterisk",
+          "tags": [
+            "mark"
+          ]
+        },
+        {
+          "text": "⁎",
+          "name": "low asterisk mark",
+          "tags": [
+            "mark"
+          ]
+        },
+        {
+          "text": "⁑",
+          "name": "double star mark",
+          "tags": [
+            "mark"
+          ]
+        },
+        {
+          "text": "⏥",
+          "name": "trapezoid",
+          "tags": [
+            "mark"
+          ]
+        }
+      ]
+    }
+  ]
+}

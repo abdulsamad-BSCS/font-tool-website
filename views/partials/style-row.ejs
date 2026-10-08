@@ -1,0 +1,10 @@
+<li class="row" data-style-id="<%= s.id %>">
+  <div class="row-meta">
+    <h3 class="row-name"><a href="/fonts/<%= s.slug %>"><%= s.name %></a></h3>
+    <p class="row-support" data-support="<%= s.support %>"><%= s.supportLabel %></p>
+  </div>
+  <p class="out" data-output><%= s.output %></p>
+  <div class="row-actions">
+    <button type="button" class="btn" data-copy aria-label="Copy <%= s.name %>">Copy</button>
+  </div>
+</li>

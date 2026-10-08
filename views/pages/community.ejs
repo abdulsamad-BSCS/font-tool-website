@@ -1,0 +1,65 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Community</span></nav>
+<section class="hero">
+  <p class="eyebrow">Made with Stylzo</p>
+  <h1>Community styles</h1>
+  <p class="lede">Copy what other people made, open it in the generator, or share your own. Text stays in your browser; shared posts keep only the style and words you choose.</p>
+</section>
+
+<div class="panel">
+  <h2>Share a style</h2>
+  <form class="share-form" data-share-form>
+    <div>
+      <label for="share-name">Name your style</label>
+      <input id="share-name" name="name" type="text" required maxlength="40" placeholder="Midnight bio">
+    </div>
+    <div>
+      <label for="share-author">Username <span class="muted">(optional)</span></label>
+      <input id="share-author" name="author" type="text" maxlength="40" placeholder="nova">
+    </div>
+    <div>
+      <label for="share-text">Text to style</label>
+      <input id="share-text" name="text" type="text" required maxlength="120" placeholder="stay soft, try hard">
+      <p class="field-hint">Up to 120 characters. It is styled in your browser before sharing.</p>
+    </div>
+    <div>
+      <label for="share-style">Style</label>
+      <select id="share-style" name="style" required>
+        <% styleOptions.forEach(function (s) { %><option value="<%= s.id %>"><%= s.name %></option><% }) %>
+      </select>
+    </div>
+    <div>
+      <label for="share-tags">Tags <span class="muted">(optional, comma separated)</span></label>
+      <input id="share-tags" name="tags" type="text" maxlength="80" placeholder="bio, aesthetic">
+    </div>
+    <div class="share-actions">
+      <button type="submit" class="btn grad">Share it</button>
+      <span class="auth-note" data-share-status aria-live="polite"></span>
+    </div>
+  </form>
+</div>
+
+<div class="section-head">
+  <h2>Latest shares</h2>
+  <span class="muted"><span data-share-count><%= shares.length %></span> posts</span>
+</div>
+<div class="share-grid" data-share-grid>
+  <% shares.forEach(function (p) { %>
+  <article class="card share-card" data-share-id="<%= p.id %>">
+    <h3><%= p.name %></h3>
+    <div class="share-out"><%= p.styleOut %></div>
+    <div class="share-meta">
+      <span>by <%= p.author %></span><span>·</span><span><%= p.styleName %></span>
+      <% (p.tags || []).forEach(function (t) { %><span class="badge">#<%= t %></span><% }) %>
+      <span class="badge hot" data-likes="<%= p.likes %>">♥ <%= p.likes %></span>
+    </div>
+    <div class="share-actions">
+      <button type="button" class="btn small" data-copy-share>Copy</button>
+      <a class="btn small ghost" href="/?text=<%= encodeURIComponent(p.text) %>">Open in generator</a>
+      <button type="button" class="btn small subtle" data-like-share>Like</button>
+    </div>
+  </article>
+  <% }) %>
+</div>
+<% if (!shares.length) { %><p class="empty">No shares yet — be the first.</p><% } %>
+<%- include('../partials/foot') %>

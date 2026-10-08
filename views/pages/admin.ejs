@@ -1,0 +1,64 @@
+<%- include('../partials/head') %>
+<section class="hero">
+  <p class="eyebrow">admin</p>
+  <h1>Dashboard</h1>
+  <p class="lede">Catalog health, traffic counters and feature flags for this deployment.</p>
+</section>
+<% if (!configured) { %>
+<div class="panel">
+  <h2>Set up access</h2>
+  <p class="auth-note">This deployment has no <code>ADMIN_KEY</code>, so the dashboard stays closed. Add <code>ADMIN_KEY=some-long-secret</code> to your environment, restart, then open <code>/admin?key=some-long-secret</code>.</p>
+</div>
+<% } else if (!authorized) { %>
+<div class="panel">
+  <h2>Enter your key</h2>
+  <form class="key-form" method="get" action="/admin">
+    <label class="skip" for="admin-key">Admin key</label>
+    <input id="admin-key" name="key" type="password" placeholder="ADMIN_KEY" autocomplete="off" required>
+    <button class="btn" type="submit">Open dashboard</button>
+  </form>
+  <p class="auth-note">Wrong or missing keys see nothing — the dashboard returns no data.</p>
+</div>
+<% } else { %>
+<div class="stats-grid">
+  <div class="stat-card"><b><%= stats.totalStyles %></b><span>styles in catalog</span></div>
+  <div class="stat-card"><b><%= stats.indexable %></b><span>indexable style pages</span></div>
+  <div class="stat-card"><b><%= stats.analytics.totalViews %></b><span>pageviews (this instance)</span></div>
+  <div class="stat-card"><b><%= stats.analytics.sessions %></b><span>sessions (this instance)</span></div>
+  <div class="stat-card"><b><%= stats.communityCount %></b><span>community shares</span></div>
+  <div class="stat-card"><b><%= stats.analytics.uptimeSeconds %>s</b><span>instance uptime</span></div>
+</div>
+
+<h2>Categories</h2>
+<table class="table">
+  <thead><tr><th>Category</th><th>Key</th><th>Styles</th></tr></thead>
+  <tbody>
+    <% stats.categories.forEach(function (c) { %><tr><td><%= c.name %></td><td><code><%= c.key %></code></td><td><%= c.count %></td></tr><% }) %>
+  </tbody>
+</table>
+
+<h2>Traffic</h2>
+<table class="table">
+  <thead><tr><th>Top pages</th><th>Views</th></tr></thead>
+  <tbody><% stats.analytics.topPages.forEach(function (p) { %><tr><td><code><%= p.key %></code></td><td><%= p.count %></td></tr><% }) %></tbody>
+</table>
+<table class="table">
+  <thead><tr><th>Events</th><th>Count</th></tr></thead>
+  <tbody>
+    <% stats.analytics.events.forEach(function (p) { %><tr><td><%= p.key %></td><td><%= p.count %></td></tr><% }) %>
+    <% if (!stats.analytics.events.length) { %><tr><td colspan="2" class="muted">No events captured yet.</td></tr><% } %>
+  </tbody>
+</table>
+
+<h2>Feature flags</h2>
+<table class="table">
+  <tbody>
+    <tr><td>Firebase configured</td><td><%= stats.flags.firebaseConfigured ? 'yes' : 'no' %></td></tr>
+    <tr><td>AI provider configured</td><td><%= stats.flags.aiConfigured ? 'yes' : 'no' %></td></tr>
+    <tr><td>Hosting</td><td><%= stats.flags.vercel ? 'Vercel' : 'node' %></td></tr>
+    <tr><td>Environment</td><td><%= stats.flags.env %></td></tr>
+  </tbody>
+</table>
+<p class="auth-note">Counters are in-memory per instance — they reset when the process restarts and are never joined with identifiers.</p>
+<% } %>
+<%- include('../partials/foot') %>

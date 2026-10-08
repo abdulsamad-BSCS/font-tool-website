@@ -1,0 +1,1199 @@
+{
+  "categories": [
+    {
+      "key": "happy",
+      "name": "Happy & smiling",
+      "intro": "Grins, beamers and small smiles for a friendly first line.",
+      "items": [
+        {
+          "text": "(＾▽＾)",
+          "tags": [
+            "happy",
+            "smile",
+            "joy"
+          ]
+        },
+        {
+          "text": "(＾◡＾)",
+          "tags": [
+            "happy",
+            "smile"
+          ]
+        },
+        {
+          "text": "(◠‿◠)",
+          "tags": [
+            "happy",
+            "smile",
+            "soft"
+          ]
+        },
+        {
+          "text": "^^‿^^",
+          "tags": [
+            "happy",
+            "smile"
+          ]
+        },
+        {
+          "text": "(｡•‿•｡)",
+          "tags": [
+            "cute",
+            "smile",
+            "happy"
+          ]
+        },
+        {
+          "text": "(⌒‿⌒)",
+          "tags": [
+            "happy",
+            "smile"
+          ]
+        },
+        {
+          "text": "(￣▽￣)",
+          "tags": [
+            "happy",
+            "grin"
+          ]
+        },
+        {
+          "text": "(•‿•)",
+          "tags": [
+            "happy",
+            "smile"
+          ]
+        },
+        {
+          "text": "(°▽°)",
+          "tags": [
+            "happy",
+            "grin"
+          ]
+        },
+        {
+          "text": "(☆▽☆)",
+          "tags": [
+            "happy",
+            "shine",
+            "excited"
+          ]
+        },
+        {
+          "text": "\\(╯°□°)╯︵ ┻━┻",
+          "tags": [
+            "happy",
+            "flip",
+            "table"
+          ]
+        },
+        {
+          "text": "(✧ᴗ✧)",
+          "tags": [
+            "happy",
+            "cute"
+          ]
+        },
+        {
+          "text": "(◕ᴗ◕✿)",
+          "tags": [
+            "happy",
+            "cute",
+            "flower"
+          ]
+        },
+        {
+          "text": "(≧◡≦)",
+          "tags": [
+            "beam"
+          ]
+        },
+        {
+          "text": "(⌒▽⌒)",
+          "tags": [
+            "smile"
+          ]
+        },
+        {
+          "text": "＼(＾▽＾)／",
+          "tags": [
+            "cheer"
+          ]
+        },
+        {
+          "text": "(＃￣▽￣＃)",
+          "tags": [
+            "shy smile"
+          ]
+        },
+        {
+          "text": "(●´∀｀●)",
+          "tags": [
+            "soft smile"
+          ]
+        },
+        {
+          "text": "(✪‿✪)",
+          "tags": [
+            "star eyes"
+          ]
+        },
+        {
+          "text": "(๑•̀ㅂ•́)و",
+          "tags": [
+            "determined"
+          ]
+        },
+        {
+          "text": "(✿＾▽＾)",
+          "tags": [
+            "flower smile"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "love",
+      "name": "Love & affection",
+      "intro": "Hearts, hugs and blushes for messages that are warm.",
+      "items": [
+        {
+          "text": "(♡°▽°♡)",
+          "tags": [
+            "love",
+            "heart"
+          ]
+        },
+        {
+          "text": "(♥ω♥*)",
+          "tags": [
+            "love",
+            "heart"
+          ]
+        },
+        {
+          "text": "(♥‿♥)",
+          "tags": [
+            "love",
+            "heart"
+          ]
+        },
+        {
+          "text": "(´∩｡• ᵕ •｡∩`)",
+          "tags": [
+            "love",
+            "hug"
+          ]
+        },
+        {
+          "text": "(◕‿◕♡)",
+          "tags": [
+            "love",
+            "cute"
+          ]
+        },
+        {
+          "text": "♡(˃͈ દ ˂͈ ༶ )",
+          "tags": [
+            "love",
+            "shy"
+          ]
+        },
+        {
+          "text": "(•﹏•)",
+          "tags": [
+            "love",
+            "shy",
+            "blush"
+          ]
+        },
+        {
+          "text": "(｡･ω･｡)ﾉ♡",
+          "tags": [
+            "love",
+            "wave",
+            "hello"
+          ]
+        },
+        {
+          "text": "♡＾▽＾♡",
+          "tags": [
+            "love",
+            "happy"
+          ]
+        },
+        {
+          "text": "( ˘ 3˘)♥",
+          "tags": [
+            "love",
+            "kiss"
+          ]
+        },
+        {
+          "text": "(✿ ♥‿♥)",
+          "tags": [
+            "love"
+          ]
+        },
+        {
+          "text": "(๑˃ᴗ˂)ﻭ♡",
+          "tags": [
+            "love win"
+          ]
+        },
+        {
+          "text": "＼(●´∀｀●)/",
+          "tags": [
+            "open arms"
+          ]
+        },
+        {
+          "text": "(｡♥‿♥｡)",
+          "tags": [
+            "heart face"
+          ]
+        },
+        {
+          "text": "(✿ ♡‿♡)",
+          "tags": [
+            "soft love"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "angry",
+      "name": "Angry & annoyed",
+      "intro": "Frowns, pouts and steam for when the message needs bite.",
+      "items": [
+        {
+          "text": "(╬ Ò﹏Ó)",
+          "tags": [
+            "angry",
+            "annoyed"
+          ]
+        },
+        {
+          "text": "(╯°□°）╯︵ ┻━┻",
+          "tags": [
+            "angry",
+            "flip",
+            "table"
+          ]
+        },
+        {
+          "text": "(≖､≖╬)",
+          "tags": [
+            "angry",
+            "stare"
+          ]
+        },
+        {
+          "text": "(¬_¬)",
+          "tags": [
+            "angry",
+            "side",
+            "suspicious"
+          ]
+        },
+        {
+          "text": "(＃`Д´)",
+          "tags": [
+            "angry",
+            "yell"
+          ]
+        },
+        {
+          "text": "(｀Д´)",
+          "tags": [
+            "angry",
+            "shout"
+          ]
+        },
+        {
+          "text": "(>_<)",
+          "tags": [
+            "angry",
+            "wince"
+          ]
+        },
+        {
+          "text": "( ಠ ಠ )",
+          "tags": [
+            "angry",
+            "stare"
+          ]
+        },
+        {
+          "text": "(ᗒᗣᗕ)՞",
+          "tags": [
+            "angry",
+            "cry",
+            "point"
+          ]
+        },
+        {
+          "text": "ψ(｀∇´)ψ",
+          "tags": [
+            "angry",
+            "yell"
+          ]
+        },
+        {
+          "text": "(╬٠▪٠╬)",
+          "tags": [
+            "angry",
+            "glare"
+          ]
+        },
+        {
+          "text": "(＞＿＜)",
+          "tags": [
+            "wince"
+          ]
+        },
+        {
+          "text": "(￣^￣)",
+          "tags": [
+            "sneer"
+          ]
+        },
+        {
+          "text": "(≖^≖)",
+          "tags": [
+            "side"
+          ]
+        },
+        {
+          "text": "(｀´)",
+          "tags": [
+            "frown"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sad",
+      "name": "Sad & crying",
+      "intro": "Tears, sighs and downcast faces for the softer posts.",
+      "items": [
+        {
+          "text": "(╥﹏╥)",
+          "tags": [
+            "sad",
+            "cry"
+          ]
+        },
+        {
+          "text": "(;_;)",
+          "tags": [
+            "sad",
+            "cry"
+          ]
+        },
+        {
+          "text": "(ಥ﹏ಥ)",
+          "tags": [
+            "sad",
+            "cry"
+          ]
+        },
+        {
+          "text": "(；ω；)",
+          "tags": [
+            "sad",
+            "cry"
+          ]
+        },
+        {
+          "text": "(｡•́︿•̀｡)",
+          "tags": [
+            "sad",
+            "pout"
+          ]
+        },
+        {
+          "text": "(｡╯︵╰｡)",
+          "tags": [
+            "sad",
+            "tear"
+          ]
+        },
+        {
+          "text": "(╥_╥)",
+          "tags": [
+            "sad",
+            "cry"
+          ]
+        },
+        {
+          "text": "( ; ;)",
+          "tags": [
+            "sad",
+            "tears"
+          ]
+        },
+        {
+          "text": "＿|￣|○",
+          "tags": [
+            "sad",
+            "faceplant"
+          ]
+        },
+        {
+          "text": "(•́ ̯•̀)",
+          "tags": [
+            "sad",
+            "down"
+          ]
+        },
+        {
+          "text": "(｡•́︿•̀｡)♡",
+          "tags": [
+            "sad",
+            "love"
+          ]
+        },
+        {
+          "text": "＼(;´Д`)/",
+          "tags": [
+            "distress"
+          ]
+        },
+        {
+          "text": "(┬┬﹏┬┬)",
+          "tags": [
+            "sob"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "surprised",
+      "name": "Surprised & shocked",
+      "intro": "Wide eyes and open mouths for news worth reacting to.",
+      "items": [
+        {
+          "text": "(⊙_⊙)",
+          "tags": [
+            "surprised",
+            "shock"
+          ]
+        },
+        {
+          "text": "(°□°）",
+          "tags": [
+            "surprised",
+            "shock"
+          ]
+        },
+        {
+          "text": "(⊙﹏⊙)",
+          "tags": [
+            "surprised",
+            "worry"
+          ]
+        },
+        {
+          "text": "(°々々°)",
+          "tags": [
+            "surprised",
+            "shake"
+          ]
+        },
+        {
+          "text": "(⊙_⊙;)",
+          "tags": [
+            "surprised",
+            "sweat"
+          ]
+        },
+        {
+          "text": "(°□°)",
+          "tags": [
+            "shock",
+            "blank"
+          ]
+        },
+        {
+          "text": "(⊙.⊙)",
+          "tags": [
+            "gasp"
+          ]
+        },
+        {
+          "text": "(°△°|||)",
+          "tags": [
+            "shock"
+          ]
+        },
+        {
+          "text": "(ﾟдﾟ；)",
+          "tags": [
+            "stunned"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "neutral",
+      "name": "Neutral & shrug",
+      "intro": "Flat faces, shrugs and sideways looks when you have no comment.",
+      "items": [
+        {
+          "text": "(´-ω-`)",
+          "tags": [
+            "neutral",
+            "calm"
+          ]
+        },
+        {
+          "text": "(._.)",
+          "tags": [
+            "neutral",
+            "quiet"
+          ]
+        },
+        {
+          "text": "(︶︹︶)",
+          "tags": [
+            "neutral",
+            "tired"
+          ]
+        },
+        {
+          "text": "(－_－) zzZ",
+          "tags": [
+            "neutral",
+            "sleep"
+          ]
+        },
+        {
+          "text": "( ˙-˙ )",
+          "tags": [
+            "neutral",
+            "calm"
+          ]
+        },
+        {
+          "text": "┐(´～`)┌",
+          "tags": [
+            "shrug",
+            "whatever"
+          ]
+        },
+        {
+          "text": "╮(╯_╰)╭",
+          "tags": [
+            "shrug",
+            "indifferent"
+          ]
+        },
+        {
+          "text": "(/¯◡◝¯)/~",
+          "tags": [
+            "neutral",
+            "wave"
+          ]
+        },
+        {
+          "text": "(￣3￣)",
+          "tags": [
+            "flat"
+          ]
+        },
+        {
+          "text": "( -_-)",
+          "tags": [
+            "look"
+          ]
+        },
+        {
+          "text": "┐(‘～’)┌",
+          "tags": [
+            "shrug"
+          ]
+        },
+        {
+          "text": "( ˘︹˘ )",
+          "tags": [
+            "pout"
+          ]
+        },
+        {
+          "text": "(￢_￢;)",
+          "tags": [
+            "side eye"
+          ]
+        },
+        {
+          "text": "( ˘ ³˘)",
+          "tags": [
+            "soft"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "table-flip",
+      "name": "Table flips & rage",
+      "intro": "The classics: flip a table, raise a table, and everything in between.",
+      "items": [
+        {
+          "text": "(╯°□°)╯︵ ┻━┻",
+          "tags": [
+            "table",
+            "flip",
+            "rage"
+          ]
+        },
+        {
+          "text": "(╯︵╰,)",
+          "tags": [
+            "table",
+            "sad"
+          ]
+        },
+        {
+          "text": "┬─┬ ︵(°□°)︵ ┬─┬",
+          "tags": [
+            "table",
+            "unflip",
+            "fail"
+          ]
+        },
+        {
+          "text": "(°□°).(°□°)",
+          "tags": [
+            "table",
+            "stare"
+          ]
+        },
+        {
+          "text": "¯\\_(°□°)_/¯",
+          "tags": [
+            "table",
+            "shrug"
+          ]
+        },
+        {
+          "text": "(╯°□°)╯︵ ┻━┻ ︵ ┻━┻",
+          "tags": [
+            "table",
+            "flip",
+            "chain"
+          ]
+        },
+        {
+          "text": "( ಠ ͜ʖ ಠ)",
+          "tags": [
+            "table",
+            "smirk"
+          ]
+        },
+        {
+          "text": "(╯°□°)╯︵ ┳━┳",
+          "tags": [
+            "table",
+            "flip",
+            "up"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "animals",
+      "name": "Animals & creatures",
+      "intro": "Cats, bunnies, bears and small creatures made of brackets.",
+      "items": [
+        {
+          "text": "(=^･ω･^=)",
+          "tags": [
+            "cat",
+            "animal",
+            "cute"
+          ]
+        },
+        {
+          "text": "(^._.^)ﾉ",
+          "tags": [
+            "cat",
+            "wave"
+          ]
+        },
+        {
+          "text": "(=^-ω-^=)",
+          "tags": [
+            "cat",
+            "animal"
+          ]
+        },
+        {
+          "text": "ฅ^•ﻌ•^ฅ",
+          "tags": [
+            "cat",
+            "animal"
+          ]
+        },
+        {
+          "text": "(=①ω①=)",
+          "tags": [
+            "cat",
+            "animal"
+          ]
+        },
+        {
+          "text": "ʕ•ᴥ•ʔ",
+          "tags": [
+            "bear",
+            "animal"
+          ]
+        },
+        {
+          "text": "(⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+          "tags": [
+            "bear",
+            "shy"
+          ]
+        },
+        {
+          "text": "(/(°ω°)/)",
+          "tags": [
+            "creature",
+            "wave"
+          ]
+        },
+        {
+          "text": "／(^×^)＼",
+          "tags": [
+            "bunny",
+            "animal"
+          ]
+        },
+        {
+          "text": "(⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)",
+          "tags": [
+            "bunny",
+            "shy"
+          ]
+        },
+        {
+          "text": "( ´ • ω • ` )",
+          "tags": [
+            "animal",
+            "calm"
+          ]
+        },
+        {
+          "text": "(=^‥^=)",
+          "tags": [
+            "cat"
+          ]
+        },
+        {
+          "text": "(／ω＼)",
+          "tags": [
+            "shy"
+          ]
+        },
+        {
+          "text": "(´,,•ω•,,)♡",
+          "tags": [
+            "cat love"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "greetings",
+      "name": "Greetings & gestures",
+      "intro": "Hellos, goodbyes, waves and high fives in pure text.",
+      "items": [
+        {
+          "text": "(＾▽＾)/",
+          "tags": [
+            "hello",
+            "wave"
+          ]
+        },
+        {
+          "text": "\\(＾▽＾)/",
+          "tags": [
+            "hello",
+            "cheer"
+          ]
+        },
+        {
+          "text": "\\(´∀｀)/",
+          "tags": [
+            "hello",
+            "wave"
+          ]
+        },
+        {
+          "text": "＼(￣▽￣)／",
+          "tags": [
+            "hello",
+            "cheer"
+          ]
+        },
+        {
+          "text": "( ´ ▽ ` )ﾉ",
+          "tags": [
+            "hello",
+            "wave"
+          ]
+        },
+        {
+          "text": "\\(^▽^)/",
+          "tags": [
+            "arms"
+          ]
+        },
+        {
+          "text": "( ´ ∀ ` )",
+          "tags": [
+            "hello"
+          ]
+        },
+        {
+          "text": "(๑¯◡¯๑)",
+          "tags": [
+            "soft hello"
+          ]
+        },
+        {
+          "text": "(＾‿＾)/",
+          "tags": [
+            "smile hello"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "victory",
+      "name": "Victory & celebration",
+      "intro": "Wins, poses and party hands for the good news posts.",
+      "items": [
+        {
+          "text": "(๑˃ᴗ˂)ﻭ",
+          "tags": [
+            "victory",
+            "win"
+          ]
+        },
+        {
+          "text": "(๑•̀ㅂ•́)و✧",
+          "tags": [
+            "victory",
+            "determined"
+          ]
+        },
+        {
+          "text": "ᕙ(⇀‸↼‶)ᕗ",
+          "tags": [
+            "flex",
+            "strong"
+          ]
+        },
+        {
+          "text": "\\(^ω^\\)",
+          "tags": [
+            "victory",
+            "cat"
+          ]
+        },
+        {
+          "text": "(๑•̀ㅁ•́ฅ✧",
+          "tags": [
+            "victory",
+            "cute"
+          ]
+        },
+        {
+          "text": "( •̀ᴗ•́ )و ̑̑",
+          "tags": [
+            "victory",
+            "fist"
+          ]
+        },
+        {
+          "text": "(✧∀✧)/",
+          "tags": [
+            "celebrate",
+            "shine"
+          ]
+        },
+        {
+          "text": "＼(≧∀≦)／",
+          "tags": [
+            "celebrate",
+            "arms"
+          ]
+        },
+        {
+          "text": "(•̀ᴗ•́)و ̑̑",
+          "tags": [
+            "fist"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dance",
+      "name": "Dancing & music",
+      "intro": "Arms in the air, little steps and poses that move.",
+      "items": [
+        {
+          "text": "♪~ ᕕ(ᐛ)ᕗ",
+          "tags": [
+            "dance",
+            "music"
+          ]
+        },
+        {
+          "text": "\\(◕▽◕)/",
+          "tags": [
+            "dance",
+            "wave"
+          ]
+        },
+        {
+          "text": "(〜￣△￣)〜",
+          "tags": [
+            "dance",
+            "glide"
+          ]
+        },
+        {
+          "text": "٩(˘◡˘)۶",
+          "tags": [
+            "dance",
+            "pose"
+          ]
+        },
+        {
+          "text": "(＾3＾)/~",
+          "tags": [
+            "dance",
+            "blow kiss"
+          ]
+        },
+        {
+          "text": "ƪ(˘⌣˘)ʃ",
+          "tags": [
+            "dance",
+            "pose"
+          ]
+        },
+        {
+          "text": "┌(ㆆ㉨ㆆ)ʃ",
+          "tags": [
+            "dance",
+            "hands"
+          ]
+        },
+        {
+          "text": "ε=ε=ε=┌(;･ω･)┘",
+          "tags": [
+            "dance",
+            "run"
+          ]
+        },
+        {
+          "text": "╰(■˙╯■)╯",
+          "tags": [
+            "dance"
+          ]
+        },
+        {
+          "text": "＼(º▿º)/",
+          "tags": [
+            "arms"
+          ]
+        },
+        {
+          "text": "٩(｡•́‿•̀｡)۶",
+          "tags": [
+            "pose"
+          ]
+        },
+        {
+          "text": "〜(△▽〜)",
+          "tags": [
+            "glide"
+          ]
+        },
+        {
+          "text": "♪＼(＾▽＾)／",
+          "tags": [
+            "music cheer"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sleep",
+      "name": "Sleepy & tired",
+      "intro": "For the nights you are posting from bed.",
+      "items": [
+        {
+          "text": "(－ω－) zzZ",
+          "tags": [
+            "sleep",
+            "tired"
+          ]
+        },
+        {
+          "text": "(._. )",
+          "tags": [
+            "sleep",
+            "doze"
+          ]
+        },
+        {
+          "text": "(―_―) zzZ",
+          "tags": [
+            "sleep",
+            "night"
+          ]
+        },
+        {
+          "text": "(∩ˎ _ ·)",
+          "tags": [
+            "sleep",
+            "tilt"
+          ]
+        },
+        {
+          "text": "(￣з￣)",
+          "tags": [
+            "sleep",
+            "kiss",
+            "night"
+          ]
+        },
+        {
+          "text": "(-ω-)ｚｚＺ",
+          "tags": [
+            "sleep",
+            "zzz"
+          ]
+        },
+        {
+          "text": "( ᐛ )",
+          "tags": [
+            "sleep",
+            "relax"
+          ]
+        },
+        {
+          "text": "∪∪",
+          "tags": [
+            "sleep",
+            "lying"
+          ]
+        },
+        {
+          "text": "(＿＿)＿＿",
+          "tags": [
+            "sleep",
+            "bow"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mischievous",
+      "name": "Mischievous & smug",
+      "intro": "Smirks, teases and the little faces that mean you are up to something.",
+      "items": [
+        {
+          "text": "( ͡° ͜ʖ ͡°)",
+          "tags": [
+            "smug",
+            "lenny",
+            "tease"
+          ]
+        },
+        {
+          "text": "( ͡~ ͜ʖ ͡°)",
+          "tags": [
+            "smug",
+            "lenny"
+          ]
+        },
+        {
+          "text": "(¬‿¬)",
+          "tags": [
+            "smug",
+            "sly"
+          ]
+        },
+        {
+          "text": "( •̀ω•́ )σ",
+          "tags": [
+            "tease",
+            "poke"
+          ]
+        },
+        {
+          "text": "( ͡°( ͡° ͜ʖ ͡°)واقعية)",
+          "tags": [
+            "smug",
+            "nested"
+          ]
+        },
+        {
+          "text": "( ͡^ ͜ʖ ͡^)",
+          "tags": [
+            "smug",
+            "lenny"
+          ]
+        },
+        {
+          "text": "(｡•̀ᴗ-)✧",
+          "tags": [
+            "wink",
+            "cute"
+          ]
+        },
+        {
+          "text": "(￣ω￣)",
+          "tags": [
+            "smug",
+            "cat"
+          ]
+        },
+        {
+          "text": "(￢‿￢ )",
+          "tags": [
+            "smug",
+            "wink"
+          ]
+        },
+        {
+          "text": "( ͡° ͜ʖ ͡°)╭─☆",
+          "tags": [
+            "smug",
+            "star"
+          ]
+        },
+        {
+          "text": "( ͡~ ͜ʖ ͡°)╭─☆",
+          "tags": [
+            "smug",
+            "magic"
+          ]
+        },
+        {
+          "text": "(￣▽￣)~*",
+          "tags": [
+            "smug",
+            "kiss"
+          ]
+        }
+      ]
+    }
+  ]
+}

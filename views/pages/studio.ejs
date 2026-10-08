@@ -1,0 +1,68 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Studio</span></nav>
+<section class="hero">
+  <h1>Make a text image</h1>
+</section>
+<div class="studio-layout">
+  <div class="studio-stage">
+    <canvas id="studio-canvas" width="1200" height="630" aria-label="Preview of your text image"></canvas>
+    <div class="gen-tools">
+      <span class="count">1200 × 630 PNG · drawn locally</span>
+      <button type="button" class="btn grad" data-studio-download>Download PNG</button>
+      <button type="button" class="btn ghost" data-studio-copy>Copy styled text</button>
+    </div>
+  </div>
+  <div class="studio-controls">
+    <div class="panel">
+      <label for="studio-text">Text</label>
+      <input id="studio-text" type="text" data-studio-text value="<%= text %>" maxlength="120">
+    </div>
+    <div class="panel">
+      <label for="studio-style-search">Style</label>
+      <input id="studio-style-search" type="search" data-studio-style-search placeholder="Search styles…" autocomplete="off" class="field-input">
+      <select id="studio-style" class="studio-style-select" data-studio-style size="8">
+        <% styleOptions.forEach(function (s) { %><option value="<%= s.id %>"><%= s.name %></option><% }) %>
+      </select>
+    </div>
+    <div class="panel">
+      <label for="studio-size">Size <span class="muted" data-studio-size-label>72</span></label>
+      <input id="studio-size" type="range" min="24" max="160" value="72" data-studio-size>
+      <label for="studio-tracking">Letter spacing <span class="muted" data-studio-track-label>0</span></label>
+      <input id="studio-tracking" type="range" min="-6" max="24" value="0" data-studio-tracking>
+      <label for="studio-align">Alignment</label>
+      <select id="studio-align" data-studio-align>
+        <option value="left">Left</option>
+        <option value="center" selected>Center</option>
+        <option value="right">Right</option>
+      </select>
+      <label for="studio-font">Typeface</label>
+      <select id="studio-font" data-studio-font>
+        <option value='system-ui, sans-serif'>Sans</option>
+        <option value='Georgia, serif'>Serif</option>
+        <option value='ui-monospace, Menlo, Consolas, monospace'>Mono</option>
+        <option value='"Segoe UI Symbol", "Noto Sans Symbols 2", system-ui'>Symbol stack</option>
+      </select>
+    </div>
+    <div class="panel">
+      <label>Text colour</label>
+      <div class="swatches" data-studio-fg role="group" aria-label="Text colour">
+        <button type="button" data-color="#ffffff" aria-pressed="true" class="swatch" aria-label="White"></button>
+        <button type="button" data-color="#ffd84d" aria-label="Yellow"></button>
+        <button type="button" data-color="#1b1533" aria-label="Ink"></button>
+        <button type="button" data-color="#ff8ad8" aria-label="Pink"></button>
+        <button type="button" data-color="#7ef0c0" aria-label="Mint"></button>
+        <button type="button" data-color="#a99bff" aria-label="Violet"></button>
+      </div>
+      <label>Background</label>
+      <div class="swatches" data-studio-bg role="group" aria-label="Background">
+        <button type="button" data-bg="midnight" aria-pressed="true" aria-label="Midnight"></button>
+        <button type="button" data-bg="violet" aria-label="Violet"></button>
+        <button type="button" data-bg="sunset" aria-label="Sunset"></button>
+        <button type="button" data-bg="paper" aria-label="Paper"></button>
+        <button type="button" data-bg="mint" aria-label="Mint"></button>
+      </div>
+    </div>
+    <p class="studio-note">Everything runs on this device. Downloaded PNGs are yours — no watermark, no upload.</p>
+  </div>
+</div>
+<%- include('../partials/foot') %>

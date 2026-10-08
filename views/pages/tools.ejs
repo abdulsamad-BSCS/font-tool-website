@@ -1,0 +1,104 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Tools</span></nav>
+<section class="hero">
+  <h1>Text tools</h1>
+</section>
+<div class="tool-layout">
+  <nav class="tool-nav" role="tablist" aria-label="Tools">
+    <button type="button" role="tab" aria-selected="true" aria-controls="tool-case" id="tab-case">Case converter</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tool-count" id="tab-count">Word counter</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tool-reverse" id="tab-reverse">Reverse text</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tool-slug" id="tab-slug">Slug generator</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tool-replace" id="tab-replace">Find &amp; replace</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tool-lines" id="tab-lines">Line tools</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tool-clean" id="tab-clean">Clean text</button>
+  </nav>
+
+  <div class="tool-panel panel" id="tool-case" role="tabpanel" aria-labelledby="tab-case" data-tool="case">
+    <label for="case-in">Text</label>
+    <textarea id="case-in" data-tool-input placeholder="Paste text to change its case"></textarea>
+    <div class="tool-options">
+      <button type="button" data-case="upper">UPPERCASE</button>
+      <button type="button" data-case="lower">lowercase</button>
+      <button type="button" data-case="title">Title Case</button>
+      <button type="button" data-case="sentence">Sentence case</button>
+      <button type="button" data-case="camel">camelCase</button>
+      <button type="button" data-case="snake">snake_case</button>
+      <button type="button" data-case="kebab">kebab-case</button>
+      <button type="button" data-case="alt">aLtErNaTiNg</button>
+    </div>
+    <div class="tool-out" data-tool-out aria-live="polite"></div>
+    <div class="gen-tools"><button type="button" class="btn" data-tool-copy hidden>Copy result</button></div>
+  </div>
+
+  <div class="tool-panel panel" id="tool-count" role="tabpanel" aria-labelledby="tab-count" data-tool="count" hidden>
+    <label for="count-in">Text</label>
+    <textarea id="count-in" data-tool-input placeholder="Paste text to count"></textarea>
+    <div class="tool-out" data-tool-out aria-live="polite"></div>
+  </div>
+
+  <div class="tool-panel panel" id="tool-reverse" role="tabpanel" aria-labelledby="tab-reverse" data-tool="reverse" hidden>
+    <label for="reverse-in">Text</label>
+    <textarea id="reverse-in" data-tool-input placeholder="Type something backwards-worthy"></textarea>
+    <div class="tool-options">
+      <button type="button" data-reverse="chars">Reverse characters</button>
+      <button type="button" data-reverse="words">Reverse words</button>
+      <button type="button" data-reverse="both">Reverse both</button>
+    </div>
+    <div class="tool-out" data-tool-out aria-live="polite"></div>
+    <div class="gen-tools"><button type="button" class="btn" data-tool-copy hidden>Copy result</button></div>
+  </div>
+
+  <div class="tool-panel panel" id="tool-slug" role="tabpanel" aria-labelledby="tab-slug" data-tool="slug" hidden>
+    <label for="slug-in">Title or sentence</label>
+    <textarea id="slug-in" data-tool-input placeholder="My Fancy New Post Title"></textarea>
+    <div class="tool-out" data-tool-out aria-live="polite"></div>
+    <div class="gen-tools"><button type="button" class="btn" data-tool-copy hidden>Copy slug</button></div>
+  </div>
+
+  <div class="tool-panel panel" id="tool-replace" role="tabpanel" aria-labelledby="tab-replace" data-tool="replace" hidden>
+    <label for="replace-in">Text</label>
+    <textarea id="replace-in" data-tool-input placeholder="The quick brown fox jumps over the lazy dog"></textarea>
+    <div class="tool-options field-row">
+      <label class="skip" for="replace-find">Find</label>
+      <input id="replace-find" class="field-input" data-replace-find type="text" placeholder="Find…">
+      <label class="skip" for="replace-with">Replace with</label>
+      <input id="replace-with" class="field-input" data-replace-with type="text" placeholder="Replace with…">
+      <button type="button" class="btn small" data-replace-go>Replace all</button>
+      <button type="button" class="btn small subtle" data-replace-ci>Match case</button>
+    </div>
+    <div class="tool-out" data-tool-out aria-live="polite"></div>
+    <div class="gen-tools"><button type="button" class="btn" data-tool-copy hidden>Copy result</button></div>
+  </div>
+
+  <div class="tool-panel panel" id="tool-lines" role="tabpanel" aria-labelledby="tab-lines" data-tool="lines" hidden>
+    <label for="lines-in">One item per line</label>
+    <textarea id="lines-in" data-tool-input placeholder="banana&#10;apple&#10;cherry"></textarea>
+    <div class="tool-options">
+      <button type="button" data-lines="sort">Sort A→Z</button>
+      <button type="button" data-lines="sortlen">Sort by length</button>
+      <button type="button" data-lines="revsort">Sort Z→A</button>
+      <button type="button" data-lines="dedupe">Remove duplicates</button>
+      <button type="button" data-lines="trim">Trim each line</button>
+      <button type="button" data-lines="dropempty">Drop empty lines</button>
+      <button type="button" data-lines="shuffle">Shuffle</button>
+    </div>
+    <div class="tool-out" data-tool-out aria-live="polite"></div>
+    <div class="gen-tools"><button type="button" class="btn" data-tool-copy hidden>Copy result</button></div>
+  </div>
+
+  <div class="tool-panel panel" id="tool-clean" role="tabpanel" aria-labelledby="tab-clean" data-tool="clean" hidden>
+    <label for="clean-in">Text</label>
+    <textarea id="clean-in" data-tool-input placeholder="Text with   extra spaces, fancy dashes — and zero-width characters"></textarea>
+    <div class="tool-options">
+      <button type="button" data-clean="spaces">Collapse spaces</button>
+      <button type="button" data-clean="lines">Collapse line breaks</button>
+      <button type="button" data-clean="punct">Normalise punctuation</button>
+      <button type="button" data-clean="zero">Strip zero-width chars</button>
+      <button type="button" data-clean="emoji">Strip emoji</button>
+    </div>
+    <div class="tool-out" data-tool-out aria-live="polite"></div>
+    <div class="gen-tools"><button type="button" class="btn" data-tool-copy hidden>Copy result</button></div>
+  </div>
+</div>
+<%- include('../partials/foot') %>

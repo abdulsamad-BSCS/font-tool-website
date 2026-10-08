@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%= meta.title %></title>
+<% if (meta.description) { %><meta name="description" content="<%= meta.description %>"><% } %>
+<meta name="robots" content="<%= meta.robots %>">
+<link rel="canonical" href="<%= meta.canonical %>">
+<meta name="theme-color" content="<%= site.themeColor %>">
+<% if (meta.og && meta.og.title) { %>
+<meta property="og:title" content="<%= meta.og.title %>">
+<meta property="og:description" content="<%= meta.og.description %>">
+<meta property="og:url" content="<%= meta.og.url %>">
+<meta property="og:type" content="<%= meta.og.type %>">
+<meta property="og:site_name" content="<%= meta.og.siteName %>">
+<meta name="twitter:card" content="summary">
+<% } %>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="stylesheet" href="/css/main.css">
+<% (meta.jsonLd || []).forEach(function (j) { %><script type="application/ld+json" nonce="<%= nonce %>"><%- j %></script>
+<% }) %>
+</head>
+<body data-page="<%= (typeof pageKey !== 'undefined' && pageKey) ? pageKey : '' %>">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/" aria-label="<%= site.name %> home"><span aria-hidden="true"><%= wordmark %></span><span class="brand-dot" aria-hidden="true">.</span></a>
+    <nav aria-label="Main"><ul class="nav">
+      <% site.nav.forEach(function (n) { %>
+        <% if (n.children) { %>
+        <li class="has-sub">
+          <span class="nav-sub-label"><a href="<%= n.href %>"><%= n.label %></a></span>
+          <ul class="subnav">
+            <% n.children.forEach(function (c) { %><li><a href="<%= c.href %>"><%= c.label %></a></li><% }) %>
+          </ul>
+        </li>
+        <% } else { %><li><a href="<%= n.href %>"><%= n.label %></a></li><% } %>
+      <% }) %>
+    </ul></nav>
+    <div class="bar-actions">
+      <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav" hidden>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 7h16v2H4zm0 4h16v2H4zm0 4h16v2H4z"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile" hidden>
+    <ul>
+      <% site.nav.forEach(function (n) { %>
+        <li><a href="<%= n.href %>"><%= n.label %></a></li>
+        <% (n.children || []).forEach(function (c) { %><li class="mobile-child"><a href="<%= c.href %>"><%= c.label %></a></li><% }) %>
+      <% }) %>
+    </ul>
+  </nav>
+</header>
+<main id="main" class="wrap">

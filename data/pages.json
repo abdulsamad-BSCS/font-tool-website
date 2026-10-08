@@ -1,0 +1,34 @@
+{
+  "about": {
+    "title": "About",
+    "description": "What this tool does, how the text styles work, and what we do and do not collect.",
+    "body": [
+      "This site turns ordinary text into styled text. It does not use a special font. Each style swaps letters for look-alike characters that already exist in Unicode, such as Mathematical Bold or Fraktur, so the result can be pasted into places that only accept plain text.",
+      "Some styles add combining marks (for underline or strikethrough) or wrap your text in symbols. All of this happens with a small script that runs in your browser, so typing is instant and your text stays on your device.",
+      "Because these are characters rather than fonts, support depends on the app and the device. If you see empty boxes, that app's font has no glyph for the character. Each style page says how widely it is supported."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy",
+    "description": "What data this site handles. Your typed text is not sent anywhere.",
+    "body": [
+      "The text you type into the generator is processed in your browser. It is not sent to our server and is not stored.",
+      "The site remembers one setting, your light or dark theme choice, in your browser's local storage. Nothing else is saved on your device right now.",
+      "When features that need sharing are added, this page will be updated before they go live. Sharing a result will always be an explicit action that you start."
+    ]
+  },
+  "terms": {
+    "title": "Terms of use",
+    "description": "Plain-language terms for using this site.",
+    "body": [
+      "You may use the tools on this site for personal or commercial purposes. The generated text is yours.",
+      "Please do not use styled, invisible or glitch text to impersonate others, evade moderation or harass people.",
+      "The site is provided as is. Styled text may display differently, or not at all, in apps we do not control."
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "How to reach the team behind this site.",
+    "body": []
+  }
+}

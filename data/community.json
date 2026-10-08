@@ -1,0 +1,22 @@
+{
+  "shares": [
+    { "id": "midnight-bio", "name": "Midnight bio", "author": "nova", "text": "stay soft, try hard", "style": "script", "tags": ["bio", "aesthetic"], "likes": 412 },
+    { "id": "clan-tag", "name": "Clan tag", "author": "vex0", "text": "ACE SQUAD", "style": "double-struck", "tags": ["gaming", "clan"], "likes": 268 },
+    { "id": "soft-launch", "name": "Soft launch", "author": "mira.k", "text": "new era loading", "style": "small-caps", "tags": ["bio", "soft"], "likes": 331 },
+    { "id": "gothic-header", "name": "Gothic header", "author": "ravenwood", "text": "Night Market", "style": "fraktur", "tags": ["heading", "brand"], "likes": 187 },
+    { "id": "cute-handle", "name": "Cute handle", "author": "pomu", "text": "sakura drops", "style": "circled", "tags": ["cute", "handle"], "likes": 522 },
+    { "id": "glitch-status", "name": "Glitch status", "author": "hexbyte", "text": "system unstable", "style": "zalgo-light", "tags": ["glitch", "status"], "likes": 96 },
+    { "id": "retro-wide", "name": "Retro wide", "author": "aqua", "text": "vaporwave lounge", "style": "fullwidth", "tags": ["retro", "vaporwave"], "likes": 274 },
+    { "id": "tiny-note", "name": "Tiny note", "author": "juniper", "text": "small steps", "style": "superscript", "tags": ["tiny", "note"], "likes": 141 },
+    { "id": "strike-list", "name": "Strike list", "author": "corin", "text": "done for today", "style": "strike", "tags": ["list", "done"], "likes": 89 },
+    { "id": "upside-down-fun", "name": "Upside down fun", "author": "loop", "text": "flip me over", "style": "upside-down", "tags": ["fun", "flip"], "likes": 455 },
+    { "id": "bold-claim", "name": "Bold claim", "author": "atlas", "text": "built different", "style": "bold", "tags": ["strong", "bio"], "likes": 302 },
+    { "id": "sparkle-name", "name": "Sparkle name", "author": "lumi", "text": "stardust cafe", "style": "sparkle-sprinkle", "tags": ["cute", "shop"], "likes": 217 },
+    { "id": "mono-code", "name": "Mono tag", "author": "dev.lin", "text": "ship it daily", "style": "monospace", "tags": ["code", "dev"], "likes": 158 },
+    { "id": "boxed-badge", "name": "Boxed badge", "author": "kori", "text": "LEVEL UP", "style": "squared", "tags": ["gaming", "badge"], "likes": 344 },
+    { "id": "backwards-tease", "name": "Backwards tease", "author": "echo", "text": "read me twice", "style": "backwards", "tags": ["fun", "puzzle"], "likes": 121 },
+    { "id": "cursive-invite", "name": "Cursive invite", "author": "amara", "text": "garden party", "style": "bold-script", "tags": ["invite", "event"], "likes": 279 },
+    { "id": "bubble-name", "name": "Bubble name", "author": "tofu", "text": "moon ramen", "style": "negative-circled", "tags": ["cute", "shop"], "likes": 366 },
+    { "id": "underlined-rule", "name": "Underlined rule", "author": "sable", "text": "keep it simple", "style": "underline", "tags": ["clean", "note"], "likes": 134 }
+  ]
+}

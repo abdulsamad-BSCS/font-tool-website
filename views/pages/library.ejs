@@ -1,0 +1,29 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page"><%= meta.title %></span></nav>
+<section class="hero">
+  <h1><%= meta.title %></h1>
+  <div class="search">
+    <label class="skip" for="lib-search">Search <%= meta.title %></label>
+    <input id="lib-search" type="search" data-lib-search placeholder="Search — tap any item to copy it" autocomplete="off">
+  </div>
+</section>
+<nav class="chips" aria-label="Jump to category">
+  <a href="#top" data-lib-all>All (<%= total %>)</a>
+  <% groups.forEach(function (g) { %><a href="#<%= g.key %>"><%= g.name %> (<%= g.count %>)</a><% }) %>
+</nav>
+<% groups.forEach(function (g) { %>
+<section class="lib-group" id="<%= g.key %>" data-lib-group data-name="<%= g.name.toLowerCase() %>">
+  <h2><% if (g.char) { %><span aria-hidden="true"><%= g.char %></span> <% } %><%= g.name %> <span class="badge"><%= g.count %></span></h2>
+  <% if (g.intro) { %><p class="muted"><%= g.intro %></p><% } %>
+  <div class="lib-grid<%= key === 'kaomoji' ? ' kao' : '' %>">
+    <% g.items.forEach(function (it) { %>
+    <button type="button" class="lib-item" data-lib-item data-char="<%= it.char %>" data-name="<%= it.name %>" title="Copy <%= it.name %>">
+      <span aria-hidden="true"><%= it.char %></span>
+      <span class="lib-name"><%= it.name %></span>
+    </button>
+    <% }) %>
+  </div>
+</section>
+<% }) %>
+<p class="empty" data-lib-empty hidden>Nothing matches that search. Try a shorter word.</p>
+<%- include('../partials/foot') %>

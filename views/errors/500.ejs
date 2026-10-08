@@ -1,0 +1,7 @@
+<%- include('../partials/head') %>
+<article class="prose">
+  <h1>Something went wrong</h1>
+  <p>The server hit an error. Reload the page, or <a href="/">return home</a>.</p>
+  <% if (errorId) { %><p class="muted">Reference: <code><%= errorId %></code></p><% } %>
+</article>
+<%- include('../partials/foot', { withGenerator: false }) %>

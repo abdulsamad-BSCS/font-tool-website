@@ -1,0 +1,39 @@
+<%- include('../partials/head') %>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Generator</span></nav>
+<section class="hero">
+  <div class="hero-3d" aria-hidden="true"><div id="hero-3d-root"></div></div>
+  <h1><%= cat ? cat.name + ' fancy text generator' : 'Fancy text generator' %></h1>
+  <%- include('../partials/generator-input') %>
+</section>
+<nav aria-label="Style categories" class="chips">
+  <a href="/"<%- !category ? ' aria-current="page"' : '' %>>All (<%= total %>)</a>
+  <% categories.forEach(function (c) { %><a href="/?category=<%= c.key %>"<%- category === c.key ? ' aria-current="page"' : '' %>><%= c.name %> (<%= c.count %>)</a><% }) %>
+</nav>
+<div class="search">
+  <label class="skip" for="style-search">Search styles</label>
+  <input id="style-search" type="search" data-style-search placeholder="Search styles — try glitch, hearts, stars, mono…" autocomplete="off">
+</div>
+<div class="ai-assist" data-ai>
+  <div class="gen-tools">
+    <select data-ai-vibe aria-label="Choose a vibe" class="field-input">
+      <option value="">Any vibe</option>
+      <% ['cute','dark','gaming','retro','classy','chaos','bold','minimal'].forEach(function (v) { %><option value="<%= v %>"><%= v %></option><% }) %>
+    </select>
+    <button type="button" class="btn small" data-ai-go>Suggest styles for this text</button>
+    <span class="auth-note" data-ai-note aria-live="polite"></span>
+  </div>
+  <ul class="rows" data-ai-results hidden></ul>
+</div>
+<section aria-label="Styled results">
+  <ul class="rows" data-rows>
+    <% cards.forEach(function (s) { %><%- include('../partials/style-row', { s: s }) %><% }) %>
+  </ul>
+  <ul class="rows" data-search-rows hidden aria-live="polite"></ul>
+  <% if (hasMore) { %>
+  <div class="load-more">
+    <button type="button" class="btn ghost" data-load-more data-offset="<%= offset %>" data-limit="<%= pageSize %>" data-category="<%= category %>">Load more styles</button>
+    <span class="muted" data-load-status aria-live="polite">Showing <%= offset %> of <%= total %></span>
+  </div>
+  <% } %>
+</section>
+<%- include('../partials/foot', { withGenerator: true }) %>

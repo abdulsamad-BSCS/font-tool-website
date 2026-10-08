@@ -1,0 +1,20 @@
+{
+  "bold": { "name": "Bold", "intro": "Heavy letterforms that stand out in bios, captions and chat. Bold styles are the safest choice when you need wide app support." },
+  "italic": { "name": "Italic", "intro": "Slanted letters that add emphasis without changing weight, handy where apps do not offer italic formatting." },
+  "cursive": { "name": "Cursive", "intro": "Script alphabets with a handwritten feel, popular for names, invitations and social profiles." },
+  "gothic": { "name": "Gothic", "intro": "Blackletter styles with a medieval look. They read best at larger sizes and short phrases." },
+  "outline": { "name": "Outline", "intro": "Hollow, double-struck letters that look drawn with a pen. Good for headings and usernames." },
+  "clean": { "name": "Clean", "intro": "Sans-serif and monospace alphabets for a tidy, modern or technical look." },
+  "wide": { "name": "Wide", "intro": "Fullwidth letters with extra spacing, the look behind aesthetic and vaporwave text." },
+  "bubble": { "name": "Bubble and boxed", "intro": "Letters inside circles, squares or parentheses. Support differs between apps, so test before you post." },
+  "small": { "name": "Small and tiny", "intro": "Small capitals, superscript and subscript for tiny, delicate text." },
+  "lines": { "name": "Lines", "intro": "Underlines, strikethroughs, waves, dots and stacked line effects that work on plain letters by adding combining marks." },
+  "flip": { "name": "Flip and reverse", "intro": "Upside-down, backwards and word-reversed text built from rotated glyphs, mirrored order and per-letter flips." },
+  "glitch": { "name": "Glitch", "intro": "Zalgo-style stacked marks in every intensity, plus corrupted and static variants for a distorted look. Always check how it displays before posting." },
+  "decorated": { "name": "Decorated", "intro": "Plain letters dressed up with symbol sprinkles, frames, cases and separators." },
+  "symbols": { "name": "Symbols", "intro": "Text wrapped and joined with Unicode symbols: stars, hearts, arrows, bullets and separators that paste anywhere." },
+  "emoji": { "name": "Emoji", "intro": "Emoji sprinkled between words or framing the whole line, for captions that should feel playful." },
+  "kaomoji": { "name": "Kaomoji", "intro": "Japanese-style text faces around your words, from table flips to cute hugs." },
+  "gaming": { "name": "Gaming", "intro": "Clan tags, lobby titles and status lines styled for Discord, Steam and in-game chat." },
+  "social": { "name": "Social", "intro": "Bio-ready looks for Instagram, TikTok and X: hearts, frames and profile names that stand out." }
+}

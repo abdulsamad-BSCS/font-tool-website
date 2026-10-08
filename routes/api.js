@@ -1,0 +1,20 @@
+import { Router } from 'express';
+import express from 'express';
+import * as api from '../controllers/api.js';
+import { apiLimiter } from '../middleware/rateLimit.js';
+
+const r = Router();
+r.use(express.json({ limit: '32kb' }));
+r.get('/styles', api.styles);
+r.post('/generate', apiLimiter, api.generate);
+r.get('/search', api.search);
+r.get('/ai/suggest', apiLimiter, api.aiSuggest);
+r.post('/beat', apiLimiter, api.beat);
+r.get('/health', api.health);
+r.get('/config', api.clientConfig);
+r.get('/community', api.communityList);
+r.post('/community', apiLimiter, api.communityCreate);
+r.get('/community/:id', api.communityGet);
+r.post('/community/:id/like', apiLimiter, api.communityLike);
+r.use((req, res) => res.status(404).json({ error: 'not_found', message: 'Unknown API endpoint.' }));
+export default r;

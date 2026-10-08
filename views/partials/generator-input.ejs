@@ -1,0 +1,11 @@
+<form class="gen" method="get" action="<%= formAction %>" role="search" aria-label="Text to style">
+  <label class="gen-label" for="text-input">Your text</label>
+  <textarea id="text-input" name="text" data-input rows="2" maxlength="<%= env.maxInputLength %>" spellcheck="false" autocomplete="off"
+    data-sample="<%= text %>" placeholder="Type or paste text"><%= text %></textarea>
+  <div class="gen-tools">
+    <span class="count"><span data-count><%= Array.from(text).length %></span> / <%= env.maxInputLength %> characters</span>
+    <button type="button" class="btn ghost" data-paste hidden>Paste</button>
+    <button type="button" class="btn ghost" data-clear hidden>Clear</button>
+    <noscript><button type="submit" class="btn">Generate</button></noscript>
+  </div>
+</form>

@@ -1,0 +1,23 @@
+import { Router } from 'express';
+import * as pages from '../controllers/pages.js';
+import * as seo from '../controllers/seo.js';
+import apiRoutes from './api.js';
+
+const r = Router();
+r.get('/', pages.generator);
+r.get('/fancy-text-generator', pages.generator);
+r.get('/fonts', pages.fontsIndex);
+r.get('/fonts/:slug', pages.fontDetail);
+r.get('/symbols', pages.libraryPage('symbols'));
+r.get('/emoji', pages.libraryPage('emoji'));
+r.get('/kaomoji', pages.libraryPage('kaomoji'));
+r.get('/tools', pages.tools);
+r.get('/studio', pages.studio);
+r.get('/community', pages.community);
+r.get('/s/:id', pages.share);
+r.get('/admin', pages.admin);
+for (const key of ['about', 'privacy', 'terms', 'contact']) r.get(`/${key}`, pages.staticPage(key));
+r.get('/robots.txt', seo.robots);
+r.get('/sitemap.xml', seo.sitemap);
+r.use('/api', apiRoutes);
+export default r;
